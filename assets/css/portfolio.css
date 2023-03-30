@@ -1,0 +1,269 @@
+.portfolio__body {
+    background: rgba(0, 0, 0, 0.0235294118);
+    overflow: hidden;
+}
+
+.portfolio__body .portfolio__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0px 99px;
+    padding: 68px 0;
+    border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.portfolio__body .portfolio__container p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #171A1E;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab {
+    margin-top: 60px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    white-space: nowrap;
+    list-style: none;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu li {
+    margin-right: 30px;
+    cursor: pointer;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+    opacity: 0.3;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu li:hover, .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu li:focus {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown .dropdown-menu {
+    display: none;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 44%;
+    z-index: 9999999999;
+    right: 20px;
+    background-color: #333;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown:hover .dropdown-menu li {
+    margin: 0;
+    margin-right: 30px;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown:hover .dropdown-menu li a {
+    display: block;
+    padding: 10px;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 16px;
+    border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+    padding: 40px 0 100px 0;
+    border-bottom: 1px solid rgba(23, 26, 30, 0.1176470588);
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-litle-img, .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-big-img {
+    padding: 10px;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-litle-img img, .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-big-img img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__item {
+    display: none;
+}
+
+.portfolio__body .portfolio__container .portfolio__call {
+    margin-top: 100px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.portfolio__body .portfolio__container .portfolio__call button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 276px;
+    height: 52px;
+    border: 1px solid #171A1E;
+    font-family: "Inter";
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.portfolio__body .portfolio__container .portfolio__call button:hover {
+    background: #171A1E;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1320px) {
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu li {
+        margin: 10px 0;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown-menu {
+        position: static;
+        display: none;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown-menu ul li {
+        margin-left: 20px;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown {
+        position: relative;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-menu .menu .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .portfolio__body .portfolio__container {
+        margin: 0 24px;
+        padding: 68px 0;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__item {
+        margin: 0 0px 16px 0;
+    }
+
+    .header .navbar-container .navbar-logo .navbar__logo-text {
+        padding: 19px 15px;
+    }
+
+    #navbar__menu-burger-icon {
+        padding: 24px 24px 0 0;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .portfolio__body .portfolio__container .portfolio__call {
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__item {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__item button {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 276px;
+        height: 52px;
+        border: 1px solid #171A1E;
+        font-family: "Inter";
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #171A1E;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__item button:hover {
+        background: #171A1E;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__item .container-portfolio {
+        padding: 10px;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__call button button, .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__item button {
+        padding: 0 0px;
+        max-width: 256px;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-litle-img, .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-big-img {
+        padding: 10px 0px;
+    }
+}

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+       rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/style.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/footer.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/header.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/preloader.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/portfolio.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/poslugi.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/location.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/about.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/mod2.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/modal.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/projects.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style-burger.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <title>Document</title>
+    <!--
+    <script src="assets/js/preloader.js"></script>
+     Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title></title>
+</head>
+
+<body>
+
+
+    <header class="header">
+       <nav class="navbar">
+          <div class="navbar-container container">
+             <div class="navbar-logo">
+                <div class="navbar__logo-block">
+                   <a href="index.html"><img src="assets/images/icon/Logo.png" alt=""></a>
+                </div>
+                <div class="navbar__logo-text">
+                   <ul>
+                      <li>Качественные</li>
+                      <li>фотографии </li>
+                      <li>в кратчайшие сроки</li>
+                   </ul>
+                </div>
+             </div>
+             <div class="navbar__menu-block menu-items">
+             
+                <div class="navbar__menu-burger-cabinet">
+                   <div class="navbar__menu-section-menu">
+                      <ul>
+                         <li>
+                            <img src="assets/images/icon/User.png" alt="">
+                         </li>
+                         <li>
+                            личный кабинет
+                         </li>
+                      </ul>
+                   </div></div>
+                
+                <div class="navbar__menu-section-menu">
+                   <ul class="navbar-rigch">
+                      <li id="menu-home"><a href="index.html">Главная</a></li>
+                      <li><a href="portfolio.html">Портфолио</a></li>
+                      <li><a href="poslugi.html">Услуги</a></li>
+                      <li><a href="location.html">Локации</a></li>
+                   </ul>
+                </div>
+                <div class="navbar__menu-section-contact">
+                   <ul>
+                      <li><a href="" type="phone">+380971234567</a></li>
+                      <li><a href="">FB.com/vkadre</a></li>
+                      <li><a href="" type="mail">VKADRE@GMAIL.COM</a></li>
+                   </ul></div>   <div class="navbar__menu-section-menu">
+                   <ul>
+                      <li>
+                         <img src="assets/images/icon/User.png" alt="">
+                      </li>
+                      <li>
+                         личный кабинет
+                      </li>
+                   </ul>
+                </div>
+             </div>
+             <div id="navbar__menu-burger-icon">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span>
+             </div>
+          </div>
+       </nav>
+       <div id="menu-burger" class="menu-burger">
+          <div class="menu-burger-container">
+             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+             <div class="navbar__menu-burger-cabinet">
+                <div class="navbar__menu-section-menu">
+                   <ul>
+                      <li>
+                         <img src="assets/images/icon/User.png" alt="">
+                      </li>
+                      <li>
+                         личный кабинет
+                      </li>
+                   </ul>
+                </div></div>
+             
+             <div class="navbar__menu-section-menu">
+                <ul class="navbar-rigch">
+                   <li id="menu-home"><a href="index.html">Главная</a></li>
+                   <li><a href="portfolio.html">Портфолио</a></li>
+                   <li><a href="poslugi.html">Услуги</a></li>
+                   <li><a href="location.html">Локации</a></li>
+                </ul>
+             </div>
+             <div class="navbar__menu-section-contact">
+                <ul>
+                   <li><a href="" type="phone">+380971234567</a></li>
+                   <li><a href="">FB.com/vkadre</a></li>
+                   <li><a href="" type="mail">VKADRE@GMAIL.COM</a></li>
+                </ul></div>      </div>
+    
+       </div>
+    </header>    <div class="portfolio__body">
+       <div class="portfolio__container">
+          <h1>
+             Портфолио
+          </h1>
+          <p>
+             За 3 года работы мы организовали более 10 000 фотосессий в Одессе
+          </p>
+          <div class="portfolio__tab">
+             <div class="portfolio__tab-menu">
+                <ul class="menu dropdown-menu320">
+                   <li><a href="#tab-menu-poslug-0" class="tabs__item filter-button" data-filter="all">Все</a></li>
+                   <li><a href="#tab-menu-poslug-01" class="tabs__item filter-button"
+                         data-filter="tab-menu-location-01">Экспресс</a></li>
+                   <li><a href="#tab-menu-poslug-02" class="tabs__item filter-button"
+                         data-filter="tab-menu-location-02">Индивидуальные фотосессии</a></li>
+                   <li><a href="#tab-menu-poslug-03" class="tabs__item filter-button"
+                         data-filter="tab-menu-location-03">Экспресс-видеосъёмка</a></li>
+                   <li><a href="#tab-menu-poslug-04" class="tabs__item filter-button"
+                         data-filter="tab-menu-location-04">Семейная фотосессия</a></li>
+                   <li><a href="#tab-menu-poslug-05" class="tabs__item filter-button"
+                         data-filter="tab-menu-location-05">Фотосессии в ОДЕССЕ </a></li>
+                   <li class="dropdown">
+    
+                      <a href="#">...</a>
+                      <ul class="dropdown-menu">
+                         <li><a href="#tab-menu-poslug-06" class="tabs__item filter-button"
+                               data-filter="tab-menu-location-06">Фотоконтент</a></li>
+                         <li><a href="#tab-menu-poslug-07" class="tabs__item filter-button"
+                               data-filter="tab-menu-location-07">Фотосессия Дня Рождения</a></li>
+                         <li><a href="#tab-menu-poslug-08" class="tabs__item filter-button"
+                               data-filter="tab-menu-location-08">Фотосессия беременности</a></li>
+                         <li><a href="#tab-menu-poslug-09" class="tabs__item filter-button"
+                               data-filter="tab-menu-location-09">Фотосесссия Крещения</a></li>
+                         <li><a href="#tab-menu-poslug-10" class="tabs__item filter-button"
+                               data-filter="tab-menu-location-10">Love Story</a></li>
+                         <li><a href="#tab-menu-poslug-11" class="tabs__item filter-button"
+                               data-filter="tab-menu-location-11">Студийная фотосессия</a></li>
+                         <li><a href="#tab-menu-poslug-12" class="tabs__item filter-button"
+                               data-filter="tab-menu-location-12">Предметная фотосессия</a></li>
+                         <li><a href="#tab-menu-poslug-13" class="tabs__item">Фотосессия в кафе</a></li>
+                         <li><a href="#tab-menu-poslug-14" class="tabs__item">Фотосессия в кафе</a></li>
+                         <li><a href="#tab-menu-poslug-15" class="tabs__item">Домашняя фотосессия</a></li>
+                         <li><a href="#tab-menu-poslug-16" class="tabs__item">Свадебная фотосессия</a></li>
+                         <li><a href="#tab-menu-poslug-17" class="tabs__item">Интерьерная фотосессия</a></li>
+                         <li><a href="#tab-menu-poslug-18" class="tabs__item">Фотосессия под ключ</a></li>
+                         <li><a href="#tab-menu-poslug-19" class="tabs__item">Фотопикник</a> </li>
+                         <li><a href="#tab-menu-poslug-20" class="tabs__item">Ночная фотосессия</a> </li>
+                      </ul>
+                   </li>
+                </ul>
+             </div>
+             <div class="portfolio__tab-img">
+    
+                <div class="portfolio__section location__card tab-menu-location-01">
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img1.png" alt="">
+                   </div>
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img2.png" alt="">
+                   </div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-02  tab-menu-location-01">
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img3.png" alt=""></div>
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img4.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-03  tab-menu-location-02">
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img5.png" alt=""></div>
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img6.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-12  tab-menu-location-03">
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img7.png" alt=""></div>
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img8.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-04  tab-menu-location-05">
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img10.png" alt=""></div>
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img9.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-05  tab-menu-location-06">
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img2.png" alt=""></div>
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img1.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-06  tab-menu-location-07">
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img4.png" alt=""></div>
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img3.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-07  tab-menu-location-09">
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img6.png" alt=""></div>
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img5.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-08 tab-menu-location-04">
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img8.png" alt=""></div>
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img7.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__section location__card tab-menu-location-09">
+                   <div class="portfolio__section-big-img"><img src="assets/images/slider/img10.png" alt=""></div>
+                   <div class="portfolio__section-litle-img"><img src="assets/images/slider/img9.png" alt=""></div>
+                </div>
+    
+                <div class="portfolio__item">
+                   <div class="container-portfolio">
+                      <img class="portfolio__item-img" src="" alt="">
+    
+                      <button>Загрузить еще</button>
+                   </div>
+    
+                </div>
+             </div>
+             <div class="portfolio__call">
+                <h2>
+                   Звоните, мы всегда
+                   <br>
+                   рады поговорить с вами!
+                </h2>
+                <button type="button" href="">
+                   Заказать фотосессию
+                </button>         </div>
+          </div>
+       </div>
+    <div class="footer">
+       <div class="footer_container">
+          <div class="navbar__menu-burger-cabinet">
+             <div class="navbar__menu-section-menu">
+                <ul>
+                   <li>
+                      <img src="assets/images/icon/User.png" alt="">
+                   </li>
+                   <li>
+                      личный кабинет
+                   </li>
+                </ul>
+             </div></div>
+          
+          <div class="navbar__menu-section-menu">
+             <ul class="navbar-rigch">
+                <li id="menu-home"><a href="index.html">Главная</a></li>
+                <li><a href="portfolio.html">Портфолио</a></li>
+                <li><a href="poslugi.html">Услуги</a></li>
+                <li><a href="location.html">Локации</a></li>
+             </ul>
+          </div>
+          <div class="navbar__menu-section-contact">
+             <ul>
+                <li><a href="" type="phone">+380971234567</a></li>
+                <li><a href="">FB.com/vkadre</a></li>
+                <li><a href="" type="mail">VKADRE@GMAIL.COM</a></li>
+             </ul></div>   </div>
+       <div class="footer__mail">2022 © VKADRE.COM</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
+            console.log(scrollbar);
+            document.querySelector('[href="#openModal"]').addEventListener('click', function () {
+                document.body.style.overflow = 'hidden';
+                document.querySelector('#openModal').style.marginLeft = scrollbar;
+            });
+            document.querySelector('[href="#close"]').addEventListener('click', function () {
+                document.body.style.overflow = 'visible';
+                document.querySelector('#openModal').style.marginLeft = '0px';
+            });
+        });
+    </script>
+    <script>
+        var
+            images = document.images,
+            images_total_count = images.length,
+            images_loaded_count = 0,
+            preloader = document.getElementById('page-preloader'),
+            perc_display = document.getElementById('load_perc');
+
+        for (var i = 0; i < images_total_count; i++) {
+            image_clone = new Image();
+            image_clone.onload = image_loaded;
+            image_clone.onerror = image_loaded;
+            image_clone.src = images[i].src;
+        }
+        function image_loaded() {
+            images_loaded_count++;
+            perc_display.innerHTML = (((100 / images_total_count) * images_loaded_count) << 0) + '%';
+            //setTimeout(() => image_loaded, 1000);
+            //
+            if (images_loaded_count >= images_total_count) {
+                setTimeout(function () {
+                    if (!preloader.classList.contains('done')) {
+                        preloader.classList.add('done');
+                        perc_display.innerHTML = 'VKADRE';
+                    }
+                }, 2000);
+            }
+
+        }
+    </script>
+
+    <script>
+        function openCity(evt, houseType) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the link that opened the tab
+            document.getElementById(houseType).style.display = "flex";
+            //document.getElementsByClassName(houseType).style.display = "";
+            evt.currentTarget.className += " active";
+        }
+
+    </script>
+    <script>
+        const email = document.getElementById("mail");
+
+        email.addEventListener("input", function (event) {
+            if (email.validity.typeMismatch) {
+                email.setCustomValidity("Не вірно вказаний e-mail адреса!");
+            } else {
+                email.setCustomValidity("");
+            }
+        });
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("menu-burger").style.width = "100%";
+        }
+        function closeNav() {
+            document.getElementById("menu-burger").style.width = "0";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".swiper", {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".swiper2", {
+            direction: 'horosontal',
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            navigation: {
+                nextEl: ".swiper-next",
+                prevEl: ".swiper-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+    <script>
+        new Swiper('.swiper-container', {
+            loop: true,
+            spaceBetween: 10,
+            slidesPerView: 5,
+
+            watchSlidesProgress: true,
+            autoHeight: true
+        });
+        new Swiper('.swiper-card', {
+            loop: true,
+            spaceBetween: 60,
+            slidesPerView: 1,
+            navigation: {
+                nextEl: ".swiper-next",
+                prevEl: ".swiper-prev",
+            },
+            autoHeight: true
+        });
+        new Swiper('.swiper__section7', {
+            loop: true,
+            spaceBetween: 32.75,
+            slidesPerView: 3,
+            navigation: {
+                nextEl: ".swiper-next",
+                prevEl: ".swiper-prev",
+            },
+            autoHeight: true
+        });
+        new Swiper('.swiper__section8', {
+            loop: true,
+            spaceBetween: 32,
+            slidesPerView: 4,
+            navigation: {
+                nextEl: ".swiper-next",
+                prevEl: ".swiper-prev",
+            },
+            autoHeight: true
+        });
+        new Swiper('.swiper__section9', {
+            loop: true,
+            spaceBetween: 32,
+            slidesPerView: 1,
+            navigation: {
+                nextEl: ".swiper-next",
+                prevEl: ".swiper-prev",
+            },
+            autoHeight: true
+        });
+        const filterButtons = document.querySelectorAll('.filter-button');
+        const productCards = document.querySelectorAll('.location__card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const filterValue = button.getAttribute('data-filter');
+
+                productCards.forEach(card => {
+                    if (filterValue === 'all' || card.classList.contains(filterValue)) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+        const dropdownButton = document.querySelector('.dropdown a');
+        const dropdownMenu = document.querySelector('.dropdown-menu');
+
+        dropdownButton.addEventListener('click', () => {
+            dropdownMenu.classList.toggle('show');
+        });
+    </script>
+    <script src="assets/js/filr.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+</body>
+
+</html>
