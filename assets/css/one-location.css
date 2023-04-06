@@ -1,0 +1,125 @@
+.one-location__main {
+    background: rgba(0, 0, 0, 0.0235294118);
+    overflow: hidden;
+}
+
+.one-location__main .one-location__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0px 80px 0px 99px;
+    padding: 100px 0;
+    border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title .one-location__element a {
+    position: relative;
+    top: 17px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title .one-location__element a img {
+    padding-right: 14px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title .one-location__element h2 {
+    margin-left: 25px;
+}
+
+.one-location__main .one-location__container .one-location__section .swiper-container {
+    margin-top: 60px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content {
+    margin-top: 55px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element {
+    -ms-flex: 0 1 47%;
+    flex: 0 1 47%;
+    margin-top: 5px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card {
+    margin-right: 15px;
+    float: right;
+    max-width: 35vw;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 38px 10px 38px 38px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card p {
+    margin-top: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #747678;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card p img {
+    width: 18px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li p {
+    white-space: nowrap;
+    padding-right: 15px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li .space-p {
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li span {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card button {
+    padding: 18px 0;
+}

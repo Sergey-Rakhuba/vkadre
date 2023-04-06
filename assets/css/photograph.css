@@ -1,0 +1,19 @@
+.portfolio__body .portfolio__container .photograph__section1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.portfolio__body .portfolio__container .photograph__section1 .main__section1-img, .portfolio__body .portfolio__container .photograph__section1 .main__section1-block {
+    -ms-flex: 1 1 40%;
+    flex: 1 1 40%;
+}
+
+.portfolio__body .portfolio__container .photograph__section1 .main__section1-img .main__section1-text, .portfolio__body .portfolio__container .photograph__section1 .main__section1-block .main__section1-text {
+    max-width: 40vw;
+}
