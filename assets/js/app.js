@@ -1,1 +1,0 @@
-!function(){const t=document.querySelectorAll(".filter-button"),e=document.querySelectorAll(".location__card");t.forEach((t=>{t.addEventListener("click",(()=>{const l=t.getAttribute("data-filter");e.forEach((t=>{"all"===l||t.classList.contains(l)?t.style.display="block":t.style.display="none"}))}))}))}();
