@@ -1,0 +1,536 @@
+<div class="main">
+   <div class="main__section1">
+      <div class="main__section1-img">
+         <img src="assets/images/main/img1.png" alt="">
+      </div>
+      <div class="main__section1-block">
+         <div class="main__section1-title">
+            <div class="main__section1-title-title">
+               <h1>Фотосессии №1
+                  <br />
+                  в одессе, южном<br />
+                  и черноморске<br /> поляне
+               </h1>
+            </div>
+            <div class="main__section1-title-coin checkbox-wrap">
+               <section id="radio_frame">
+                  <ul>
+                     <li>
+                        <div>
+                           <input id="radio_1" class="radio" name="radio" type="radio" checked>
+                           <label for="radio_1" class="trigger"></label>
+                           <span></span>
+                        </div>
+                        <div>
+                           <h6>10 мин - 10 фото</h6>
+                           <p>990 ГРН.</p>
+                        </div>
+
+                     </li>
+                     <li>
+                        <div>
+                           <input id="radio_2" class="radio" name="radio" type="radio">
+                           <label for="radio_2" class="trigger"></label>
+                           <span></span>
+                        </div>
+                        <div>
+                           <h6>20 мин - 20 фото</h6>
+                           <p>1990 ГРН.</p>
+                        </div>
+
+                     </li>
+                     <li>
+                        <div>
+                           <input id="radio_3" class="radio" name="radio" type="radio">
+                           <label for="radio_3" class="trigger"></label>
+                           <span></span>
+                        </div>
+                        <div>
+                           <p>Готовые фото на </p>
+                           <p>следующий день</p>
+                        </div>
+                     </li>
+                  </ul>
+               </section>
+
+               <div class="main__section1-title-button">
+                  <button class="popup-link button-order-photosession" type="button">
+                     Заказать Экспресс-фотосессию
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="main__section1-slider">
+            {{>slider-section-1-7}}
+         </div>
+
+      </div>
+
+   </div>
+   <div class="main__section2">
+
+      <div class="main__container">
+         <div class="main__section2-block">
+            <div class="main__section2-title">
+               <h2>
+                  О проекте
+               </h2>
+            </div>
+            <div class="main__section2-text">
+               <p>
+                  Мы - команда профессиональных фотографов, и наш фотопроект специализируется на организации и
+                  проведении индивидуальных и экспресс-фотосессий в самых красивых локациях Одессы.
+               </p>
+            </div>
+         </div>
+         <div class="main__section2-block">
+            <div class="main__box">
+               <img src="assets/images/icon/Frame.png" alt="">
+               <h4>
+                  ДОСТУПНО
+               </h4>
+               <p>
+                  стоимость фотосессий от 990₴
+
+               </p>
+            </div>
+            <div class="main__box">
+               <img src="assets/images/icon/Frame2.png" alt="">
+               <h4>
+                  БЫСТРО
+               </h4>
+               <p>
+                  готовые фотографии вы получите уже на следующий день
+
+               </p>
+            </div>
+            <div class="main__box">
+               <img src="assets/images/icon/Frame3.png" alt="">
+               <h4>
+                  КАЧЕСТВЕННО
+               </h4>
+               <p>
+                  мы снимаем на профессиональную топовую технику.
+               </p>
+            </div>
+            <div class="main__box">
+               <img src="assets/images/icon/Frame4.png" alt="">
+               <h4>
+                  ИНДИВИДУАЛЬНО
+               </h4>
+               <p>
+                  подходим к любому запросу и предоставляем весь спектр качественных услуг
+               </p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="main__section3">
+      <div class="main__container">
+         <ul>
+            <li>
+               <h1>
+                  100
+               </h1>
+               <p>
+                  счастливых
+                  клиентов
+               </p>
+            </li>
+            <li>
+               <h1>
+                  100
+               </h1>
+               <p>
+                  сделанных
+                  фотографий
+               </p>
+            </li>
+            <li>
+               <h1>
+                  100
+               </h1>
+               <p>
+                  проведённых
+                  фотосессий
+               </p>
+            </li>
+            <li>
+               <h1>
+                  100
+               </h1>
+               <p>
+                  авторских
+                  фотопроекта
+               </p>
+            </li>
+            <li>
+               <h1>
+                  3
+                  <span>
+                     года
+                  </span>
+               </h1>
+               <p id="aktive-work">
+                  активной
+                  работы
+               </p>
+            </li>
+         </ul>
+      </div>
+
+   </div>
+   <div class="main__section4">
+      <div class="main__container">
+         <h2>
+            наши работы
+         </h2>
+         <div class="swiper-container">
+            <div class="swiper-wrapper">
+               {{>slider-main}}
+               {{>slider-main}}
+            </div>
+         </div>
+         <div class="main__section4-block-button">
+            <div class="button-visible">
+               <button type="button" onclick="window.location.href = 'portfolio.html';">
+                  Смотреть все Портфолио
+               </button>
+            </div>
+            {{>button-swiper}}
+         </div>
+      </div>
+   </div>
+   <div class="main__section5">
+      {{>calendar-oll}}
+   </div>
+
+   <div class="main__section6">
+      <div class="main__container">
+         <div class="main__section6-menu-poslug">
+            <h2>
+               Услуги
+            </h2>
+            <!--<select size="1" name="type" class="tabs__items-menu-poslug">
+               {{>option-usl}}
+            </select>-->
+            <select multiple onchange="window.location.href=this.options[this.selectedIndex].value" size="11"
+               name="type" class="tabs__items-menu-poslug">
+               {{>option-usl}}
+            </select>
+         </div>
+         <div class="main__section6-card-poslug">
+            <div class="tabs__body" id="tab-menu-poslug-01">
+               <div class="tabs__menu-block">
+                  <h3>
+                     Экспресс-фотосессии
+                  </h3>
+                  <img src="assets/images/uslugi/img1.png" alt="">
+                  {{>main-uslugi-contant}}
+                  {{>button-zph}}
+               </div>
+            </div>
+
+            <div class="tabs__body" id="tab-menu-poslug-02">
+               <div class="tabs__menu-block">
+                  <h3>
+                     Индивидуальные фотосессии
+                  </h3>
+                  <img src="assets/images/main/img9.png" alt="">
+                  {{>main-uslugi-contant}}
+                  {{>button-zph}}
+               </div>
+
+            </div>
+            <div class="tabs__body" id="tab-menu-poslug-03">
+               <div class="tabs__menu-block">
+                  <h3>
+                     Семейная фотосессия
+                  </h3>
+                  <img src="assets/images/main/img14.png" alt="">
+                  {{>main-uslugi-contant}}
+                  {{>button-zph}}
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+   <div class="main__section7">
+      <div class="main__container">
+         <div class="main__section7-title">
+            <h2>Информация о локациях</h2>
+         </div>
+         <div class="main__section7-slider">
+
+            <div class="swiper swiper__section7">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img5.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img8.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img6.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img9.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img10.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img11.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img12.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img13.png" alt="">{{>card-location}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="one-location.html"><img class="swiper-slide-img"
+                           src="assets/images/main/img14.png" alt="">{{>card-location}}</a>
+                  </div>
+
+               </div>
+            </div>
+            <div class="main__slider-next-prev-button-block">
+               <button type="button" onclick="window.location.href = 'one-location.html';">Смотреть все локации</button>
+               {{>button-swiper}}
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+   <div class="main__section8">
+
+      <div class="main__container">
+         <div class="main__section8-title">
+            <h2>Наша команда</h2>
+            <div class="main__slider-next-prev-button-block">
+               {{>button-swiper}}
+            </div>
+         </div>
+         <div class="main__section8-slider">
+
+            <div class="swiper__section8">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                     <a href="photograph.html" data-page="0">
+                        <img class="swiper-slide-img" src="assets/images/photograf/photo1.png" alt="">
+                        {{>card-location-photo}}
+                     </a>
+                  </div>
+                  <div class="swiper-slide"><a href="photograph.html" data-page="1"><img class="swiper-slide-img"
+                           src="assets/images/photograf/photo2.png" alt="">{{>card-location-photo}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="photograph.html" data-page="2"><img class="swiper-slide-img"
+                           src="assets/images/photograf/photo3.png" alt="">{{>card-location-photo}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="photograph.html" data-page="3"><img class="swiper-slide-img"
+                           src="assets/images/photograf/photo4.png" alt="">{{>card-location-photo}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="photograph.html" data-page="0"><img class="swiper-slide-img"
+                           src="assets/images/photograf/photo1.png" alt="">{{>card-location-photo}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="photograph.html" data-page="1"><img class="swiper-slide-img"
+                           src="assets/images/photograf/photo2.png" alt="">{{>card-location-photo}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="photograph.html" data-page="2"><img class="swiper-slide-img"
+                           src="assets/images/photograf/photo3.png" alt="">{{>card-location-photo}}</a>
+                  </div>
+                  <div class="swiper-slide"><a href="photograph.html" data-page="3"><img class="swiper-slide-img"
+                           src="assets/images/photograf/photo4.png" alt="">{{>card-location-photo}}</a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+   <div class="main__section9">
+      <div class="main__container">
+         <div class="main__section9-title">
+            <h2>Отзывы клиентов</h2>
+         </div>
+         <div class="main__section9-slider">
+            <div class="swiper__section9">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                     <div class="main__section9-slide-block">
+                        <div class="main__section9-slide-section-img">
+                           <img class="swiper-slide-img" src="assets/images/main/img7.png" alt="">
+                        </div>
+                        {{>otziv}}
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                     <div class="main__section9-slide-block">
+                        <div class="main__section9-slide-section-img">
+                           <img class="swiper-slide-img" src="assets/images/main/img10.png" alt="">
+                        </div>
+                        {{>otziv}}
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="main__section9-slide-block">
+                        <div class="main__section9-slide-section-img">
+                           <img class="swiper-slide-img" src="assets/images/main/img15.png" alt="">
+                        </div>
+                        {{>otziv}}
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="main__section9-slide-block">
+                        <div class="main__section9-slide-section-img">
+                           <img class="swiper-slide-img" src="assets/images/main/img14.png" alt="">
+                        </div>
+                        {{>otziv}}
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main__section9-slide-section-button">
+               <div class="main__slider-next-prev-button-block">
+                  {{>button-swiper}}
+               </div>
+               <button class="coment-button">Оставить отзыв</button>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="main__section10">
+      <div class="main__container">
+         <div class="main__section10-title">
+            <h2>
+               Вопросы \ ответы
+            </h2>
+         </div>
+         <div class="main__section10-akkardion">
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item1">
+                  <h3>
+                     Могу ли я получить исходники?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item1">
+               {{>section10-text}}
+            </div>
+
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item2">
+                  <h3>
+                     Как обрабатываются фотографии?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item2">
+               {{>section10-text}}
+            </div>
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item3">
+                  <h3>
+                     Когда будут готовы фотографии?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item3">
+               {{>section10-text}}
+            </div>
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item4">
+                  <h3>
+                     Когда я могу перенести или отменить съёмку?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item4">
+               {{>section10-text}}
+            </div>
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item5">
+                  <h3>
+                     Что надеть на экспресс-фотосессию?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item5">
+               {{>section10-text}}
+            </div>
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item6">
+                  <h3>
+                     Что делать, если будет дождь?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item6">
+               {{>section10-text}}
+            </div>
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item7">
+                  <h3>
+                     Как я получу фотографии?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item7">
+               {{>section10-text}}
+            </div>
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item8">
+                  <h3>
+                     Если я не хочу, чтобы мои фотографии публиковали?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item8">
+               {{>section10-text}}
+            </div>
+            <div class="main__section10-akkardion-item">
+               <label class="main__section10-akkardion-title" for="main__section10-akkardion-item9">
+                  <h3>
+                     Кто будет фотограф? Могу ли я выбрать фотографа?
+                  </h3>
+               </label>
+               <input class="main__section10-akkardion-input" type="radio" name="main__section10"
+                  id="main__section10-akkardion-item9">
+               {{>section10-text}}
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="main__section11">
+      <div class="main__container">
+         <div class="main__section11-block">
+            <h1>
+               Звоните, мы всегда рады поговорить <br> с вами!
+            </h1>
+            {{>contact}}
+         </div>
+         <div class="main__section11-block-write">
+            <h2>
+               Напишите нам
+            </h2>
+            <input type="text" placeholder="СаША">
+            <input type="text" placeholder="телефон">
+            <input type="text" placeholder="интересующая услуга">
+            <button>Заказать звонок</button>
+         </div>
+
+      </div>
+   </div>
+</div>

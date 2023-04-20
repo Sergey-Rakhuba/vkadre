@@ -1,0 +1,99 @@
+<div class="cabinet__body">
+   <div class="cabinet__container">
+      <div class="cabinet__section1">
+         <h2>ЛИЧНЫЙ КАБинЕТ</h2>
+         <button class="kadr-enter"><img src="assets/images/icon/tr.png" alt="">Войти</button>
+      </div>
+      <div class="cabinet__section2">
+         <div class="cabinet__section2-menu">
+            <ul>
+               <li>
+                  <a href="#cabinet__tab1"><img src="assets/images/icon/tr.png" alt="">Мои данне</a>
+               </li>
+               <li>
+                  <a href="#cabinet__tab2"><img src="assets/images/icon/tr.png" alt="">Предстоящие фотосессии
+                  </a>
+               </li>
+               <li>
+                  <a href="#cabinet__tab3"><img src="assets/images/icon/tr.png" alt="">Прошедшие фотосессии</a>
+               </li>
+               <li>
+                  <a href="index.html"><img src="assets/images/icon/tr.png" alt="">Выйти</a>
+               </li>
+            </ul>
+         </div>
+         <div class="cabinet__section2-tabs">
+            <div class="cabinet__tab-item" id="cabinet__tab1">
+               <h3>Мои данные</h3>
+               <ul>
+                  <li>
+                     <label for=""><img src="assets/images/icon/user-m 1.png" alt="">
+                     </label>
+                     <input type="name" value="СаША">
+                  </li>
+                  <li>
+                     <label for=""><img src="assets/images/icon/phone-m 1.png" alt="">
+                     </label>
+                     <input type="tel" value="+38 (097) 123-45-67">
+                  </li>
+                  <li>
+                     <label for=""><img src="assets/images/icon/email-m 1.png" alt="">
+                     </label>
+                     <input type="email" value="tim.jennings@example.com">
+                  </li>
+               </ul>
+               <button>
+                  Сохранить
+               </button>
+            </div>
+            <div class="cabinet__tab-item" id="cabinet__tab2">
+               <h3>Предстоящие фотосессии</h3>
+               <ul>
+                  <li>
+                     <div class="cabinet__location-data-container">
+                        {{>location-user}}
+                        {{>location-button-esc}}
+                     </div>
+                  </li>
+                  <li>
+                     <div class="cabinet__location-data-container">
+                        {{>location-user}}
+                        {{>location-button-esc}}
+                     </div>
+                  </li>
+                  <li>
+                     <div class="cabinet__location-data-container">
+                        {{>location-user}}
+                        {{>location-button-esc}}
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="cabinet__tab-item" id="cabinet__tab3">
+               <h2>Прошедшие фотосессии</h2>
+               <ul>
+                  <li>
+                     <div class="cabinet__location-data-container">
+                        {{>location-user}}
+                        {{>location-button-download-mas}}
+                     </div>
+                  </li>
+                  <li>
+                     <div class="cabinet__location-data-container">
+                        {{>location-user}}
+                        {{>location-button-download-mas}}
+                     </div>
+                  </li>
+                  <li>
+                     <div class="cabinet__location-data-container">
+                        {{>location-user}}
+                        {{>location-button-download-mas}}
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</div>

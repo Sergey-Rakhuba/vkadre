@@ -1,0 +1,80 @@
+<div class="one-location__main">
+   <div class="one-location__container">
+      <div class="one-location__section">
+         <div class="one-location__block-title">
+            <div class="one-location__element">
+
+               <a><img src="assets/images/icon/tl.png" alt=""><input type="button" onclick="history.back();"
+                     value="Назад" /> </a>
+            </div>
+            <div class="one-location__element">
+               <h2>Название локации</h2>
+            </div>
+         </div>
+         <div class="swiper-container">
+            <div class="swiper-wrapper">
+               {{>slider-main}}
+            </div>
+         </div>
+         <div class="one-location__block-content">
+            <div class="one-location__element">
+               <p>
+                  Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на следующий
+                  день. Они проходят только по нашему расписанию.
+                  <br>
+                  <br>
+                  Фотографии с экспресс-фотосессий идеальны для публикаций в социальных сетях, для резюме, инстаграма,
+                  сайта знакомств и даже семейного альбома!
+
+               </p>
+            </div>
+            <div class="one-location__element">
+               <div class="one-location__card">
+                  <h4>Доступные на данный момент даты:</h4>
+                  <p><img src="assets/images/icon/calendar-m 1.png" alt=""><a href="">15.03 </a><a href="">20.03</a><a
+                        href="">3.04</a>
+                  </p>
+                  <br>
+                  <br>
+                  {{>main-uslugi-contant-tab}}
+
+                  <br>
+                  <button type="button" href="">
+                     Заказать экспресс-фотосессию
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="one-location__block-content">
+            <div class="one-location__element">
+               <p class="one-location__element-text">
+                  "Помимо экспресс-фотосессий в "Название локации", которые проходят по конкретному расписанию - вы
+                  можете заказать индивидуальную фотосессию для своих нужд с любой продолжительностью
+               </p>
+               <br>
+               <button>Заказать фотосессию</button>
+            </div>
+            <div class="one-location__element">
+               <img src="assets/images/location/Rectangle 24.png" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="one-location__container">
+      <div class="one-location__section">
+         <div class="one-location__element">
+            <h2>Другие локации</h2>
+         </div>
+         <div class="swiper">
+            <div class="swiper-wrapper">
+               {{>location-element-slider}}
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="one-location__container">
+      <div class="one-location__section coll-me">
+         {{>location-call}}
+      </div>
+   </div>
+</div>

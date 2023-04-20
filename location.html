@@ -1,0 +1,28 @@
+<div class="location__body">
+   <div class="location__container">
+      <h1>
+         Локации
+      </h1>
+      <p>
+         За 3 года работы мы организовали более 10 000 фотосессий в Одессе
+      </p>
+      <div class="location__tab">
+         <div class="location__tab-menu">
+            <a href="#tab-menu-location-01" class="tabs__item filter-button" data-filter="all">Все</a>
+            <a href="#tab-menu-location-02" class="tabs__item filter-button" data-filter="tab-menu-location-01">одесса
+            </a>
+            <a href="#tab-menu-location-03" class="tabs__item filter-button"
+               data-filter="tab-menu-location-02">южный</a>
+            <a href="#tab-menu-location-04" class="tabs__item filter-button"
+               data-filter="tab-menu-location-03">Черноморск</a>
+            <a href="#tab-menu-location-05" class="tabs__item filter-button"
+               data-filter="tab-menu-location-04">Фотостудии</a>
+         </div>
+         <div class="location__tab-img">
+            {{>location-element-slider}}
+         </div>
+         <div class="location__call">
+            {{>location-call}}
+         </div>
+      </div>
+   </div>
