@@ -1,3 +1,7 @@
+input:focus, input:active {
+    border: none;
+}
+
 .cabinet__body {
     background: rgba(0, 0, 0, 0.0235294118);
     overflow: hidden;
@@ -332,4 +336,429 @@
 .cabinet__body .cabinet__container .cabinet__section2 .cabinet__section2-tabs .cabinet__tab-item ul li .cabinet__location-data-container .cabinet__location-data-button a {
     margin: 0 5px;
     margin-top: 8px;
+}
+
+.cabinet__body .cabinet__container .cabinet__section2 .cabinet__section2-tabs .cabinet__tab-item ul li .cabinet__location-data-container .cabinet__location-data-contant ul li {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabinet__body .cabinet__container .cabinet__section2 .cabinet__section2-tabs .cabinet__tab-item ul li .cabinet__location-data-container .cabinet__location-data-contant ul li h6 {
+    padding-bottom: 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+@media screen and (max-width: 992px) {
+    .cabinet__body .cabinet__container {
+        margin: 0px 13px;
+        padding: 35px 0;
+    }
+
+    .cabinet__body .cabinet__container .cer__section1 p {
+        margin: 10px;
+        max-width: none;
+    }
+
+    .cabinet__body .cabinet__container .ccer__section2 .cer__continer {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 82px;
+    }
+
+    .cabinet__body .cabinet__container .ccer__section2 .cer__continer img {
+        max-width: 100%;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+
+    #open-popup {
+        max-width: 272px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cabinet__body .cabinet__container .cer__section1 p, .cabinet__body .cabinet__container .cer__section1 h2 {
+        display: -ms-flexbox;
+        display: flex;
+        text-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+        margin: 10px;
+    }
+
+    .cabinet__body .cabinet__container .ccer__section2 .cer__continer {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-bottom: 82px;
+    }
+
+    .cabinet__body .cabinet__container .ccer__section2 .cer__continer img {
+        max-width: 100%;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}
+
+.popup-esc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-esc .popup-content {
+    width: 551px;
+    height: 230px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 40px 45px;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    -webkit-transform: perspective(600px) translate(0px, -100%) rotateX(75deg);
+    transform: perspective(600px) translate(0px, -100%) rotateX(75deg);
+}
+
+.popup-esc .popup-content h2 {
+    margin: 10px 0 40px 0px;
+}
+
+.popup-esc .popup-content #close-popup-esc {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: none;
+    background: none;
+}
+
+.popup-esc .popup-content .open-popup-esc__button-container {
+    margin-top: 60px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.popup-esc .popup-content .open-popup-esc__button-container button {
+    width: 232px;
+    height: 52px;
+    border: 1px solid #171A1E;
+}
+
+.popup-esc.active {
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-esc.active .popup-content {
+    opacity: 1;
+    transition: all 0.8s ease 0s;
+    -webkit-transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+    transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+}
+
+#close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.cabinet__body .cabinet__container .cabinet__section2 .cabinet__section2-tabs .cabinet__tab-item ul li .cabinet__location-data-container .cabinet__location-data-button a {
+    cursor: pointer;
+}
+
+.cabinet__body .cabinet__container .cabinet__section2 .cabinet__section2-tabs .cabinet__tab-item ul li .cabinet__location-data-container .cabinet__location-data-button a:hover {
+    zoom: 110%;
+}
+
+.coment {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.coment .popup-content {
+    width: 551px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 40px 45px;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    -webkit-transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+
+.coment .popup-content h2 {
+    margin: 10px 0 40px 0px;
+}
+
+.coment .popup-content #close-popup-coment {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    border: none;
+    background: none;
+}
+
+.coment .popup-content .flex-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.coment .popup-content .flex-box div {
+    margin: 24px 0;
+    padding: 12px 0;
+    border-bottom: 1px solid #171A1E;
+    opacity: 0.2;
+}
+
+.coment .popup-content .flex-box div:hover, .coment .popup-content .flex-box div:focus {
+    opacity: 1;
+}
+
+.coment .popup-content .flex-box div input, .coment .popup-content .flex-box div select, .coment .popup-content .flex-box div textarea {
+    width: 100%;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+    white-space: pre-wrap;
+}
+
+.coment .popup-content .flex-box div input:focus, .coment .popup-content .flex-box div select:focus, .coment .popup-content .flex-box div textarea:focus {
+    opacity: 1;
+}
+
+.coment .popup-content .flex-box .coment-masage {
+    height: 120px;
+}
+
+.coment .popup-content .flex-box button {
+    max-width: 285px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #171A1E;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.coment .popup-content .flex-box button:hover {
+    background: #171A1E;
+    color: #FFFFFF;
+}
+
+.coment.active {
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+}
+
+.coment.active .popup-content {
+    opacity: 1;
+    transition: all 0.8s ease 0s;
+    -webkit-transform: perspective(1600px) translate(0px, 0%) rotateX(0deg);
+    transform: perspective(1600px) translate(0px, 0%) rotateX(0deg);
+}
+
+.popup-enter, .popup-enter-over, .popup-enter-masege {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-enter .popup-content, .popup-enter-over .popup-content, .popup-enter-masege .popup-content {
+    width: 551px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 40px 45px;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    -webkit-transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+    transform: perspective(600px) translate(0px, -100%) rotateX(45deg);
+}
+
+.popup-enter .popup-content h2, .popup-enter-over .popup-content h2, .popup-enter-masege .popup-content h2 {
+    margin: 10px 0 40px 0px;
+}
+
+.popup-enter .popup-content .flex-box, .popup-enter-over .popup-content .flex-box, .popup-enter-masege .popup-content .flex-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.popup-enter .popup-content .flex-box a, .popup-enter-over .popup-content .flex-box a, .popup-enter-masege .popup-content .flex-box a {
+    cursor: pointer;
+}
+
+.popup-enter .popup-content .flex-box div, .popup-enter-over .popup-content .flex-box div, .popup-enter-masege .popup-content .flex-box div {
+    margin: 24px 0;
+    padding: 12px 0;
+    border-bottom: 1px solid #171A1E;
+    opacity: 0.2;
+}
+
+.popup-enter .popup-content .flex-box div:hover, .popup-enter .popup-content .flex-box div:focus, .popup-enter-over .popup-content .flex-box div:hover, .popup-enter-over .popup-content .flex-box div:focus, .popup-enter-masege .popup-content .flex-box div:hover, .popup-enter-masege .popup-content .flex-box div:focus {
+    opacity: 1;
+}
+
+.popup-enter .popup-content .flex-box div input, .popup-enter .popup-content .flex-box div select, .popup-enter .popup-content .flex-box div textarea, .popup-enter-over .popup-content .flex-box div input, .popup-enter-over .popup-content .flex-box div select, .popup-enter-over .popup-content .flex-box div textarea, .popup-enter-masege .popup-content .flex-box div input, .popup-enter-masege .popup-content .flex-box div select, .popup-enter-masege .popup-content .flex-box div textarea {
+    width: 100%;
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+    white-space: pre-wrap;
+}
+
+.popup-enter .popup-content .flex-box div input:focus, .popup-enter .popup-content .flex-box div select:focus, .popup-enter .popup-content .flex-box div textarea:focus, .popup-enter-over .popup-content .flex-box div input:focus, .popup-enter-over .popup-content .flex-box div select:focus, .popup-enter-over .popup-content .flex-box div textarea:focus, .popup-enter-masege .popup-content .flex-box div input:focus, .popup-enter-masege .popup-content .flex-box div select:focus, .popup-enter-masege .popup-content .flex-box div textarea:focus {
+    opacity: 1;
+}
+
+.popup-enter .popup-content .flex-box a, .popup-enter-over .popup-content .flex-box a, .popup-enter-masege .popup-content .flex-box a {
+    position: relative;
+    left: 70%;
+}
+
+.popup-enter .popup-content button, .popup-enter-over .popup-content button, .popup-enter-masege .popup-content button {
+    width: 100%;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 60px;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 50px;
+    border: 1px solid #171A1E;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.popup-enter .popup-content button:hover, .popup-enter-over .popup-content button:hover, .popup-enter-masege .popup-content button:hover {
+    background: #171A1E;
+    color: #FFFFFF;
+}
+
+#close-popup-coment, #close-popup-enter-over, #close-popup-enter {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    top: 25px;
+    right: 25px;
+    border: none;
+    background: none;
+}
+
+.popup-enter.active, .popup-enter-over.active, .popup-enter-masege.active {
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-enter.active .popup-content, .popup-enter-over.active .popup-content, .popup-enter-masege.active .popup-content {
+    opacity: 1;
+    transition: all 0.8s ease 0s;
+    -webkit-transform: perspective(1600px) translate(0px, 0%) rotateX(0deg);
+    transform: perspective(1600px) translate(0px, 0%) rotateX(0deg);
 }

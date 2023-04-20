@@ -1,3 +1,11 @@
+.body.lock {
+    overflow: hidden;
+}
+
+.body {
+    overflow-y: overlay;
+}
+
 a {
     text-decoration: none;
     color: #000000;
@@ -116,6 +124,8 @@ button {
 }
 
 .main {
+    opacity: 1;
+    transition: all 0.8s ease 0s;
     max-width: 100vw;
     display: -ms-flexbox;
     display: flex;
@@ -142,13 +152,13 @@ button {
     display: flex;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding-top: 81px;
+    padding: 81px 90px;
 }
 
 .main .main__section1 .main__section1-img {
     -ms-flex: 1 1 50%;
     flex: 1 1 50%;
-    padding: 0 130px 0px 90px;
+    padding: 0 120px 0px 10px;
 }
 
 .main .main__section1 .main__section1-img img {
@@ -164,6 +174,7 @@ button {
     -ms-flex-direction: column;
     flex-direction: column;
     min-height: 100%;
+    max-width: 50%;
 }
 
 .main .main__section1 .main__section1-block .main__section1-title {
@@ -193,6 +204,10 @@ button {
     }
 }
 
+.main .main__section1 .main__section1-block .main__section1-title .main__section1-title-coin {
+    margin-top: -4px;
+}
+
 .main .main__section1 .main__section1-block .main__section1-title .main__section1-title-coin ul {
     display: -ms-flexbox;
     display: flex;
@@ -202,7 +217,7 @@ button {
 }
 
 .main .main__section1 .main__section1-block .main__section1-title .main__section1-title-coin ul li {
-    padding-right: 60px;
+    padding-right: 50px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -227,7 +242,7 @@ button {
     position: absolute;
     content: " ";
     width: 72px;
-    margin-top: 11px;
+    margin-top: 0px;
     height: 2px;
     margin-left: -25px;
     background: #b8b7b7;
@@ -236,7 +251,7 @@ button {
 }
 
 .main .main__section1 .main__section1-block .main__section1-title .main__section1-title-button {
-    margin: 44px 0 64px 0;
+    margin: 64px 0;
 }
 
 .main .main__section1 .main__section1-block .main__section1-title .main__section1-title-button button {
@@ -248,8 +263,8 @@ button {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 366px;
-    height: 52px;
+    width: 364px;
+    height: 50px;
     border: 1px solid #171A1E;
     font-family: "Inter";
     font-style: normal;
@@ -271,6 +286,12 @@ button {
     padding-top: 20px;
 }
 
+.main .main__section1 .main__section1-block .main__section1-slider .main__slider-next-prev-button-block {
+    float: right;
+    right: 120px;
+    position: relative;
+}
+
 .main .main__section1 .main__section1-block .main__section1-slider .swiper {
     max-width: 50vw;
     overflow: hidden;
@@ -281,7 +302,7 @@ button {
 }
 
 .main .main__section2 {
-    padding: 80px 90px 99px 90px;
+    padding: 14px 90px 99px 90px;
 }
 
 .main .main__section2 .main__container {
@@ -350,10 +371,21 @@ button {
     font-size: 14px;
     line-height: 160%;
     color: #171A1E;
+    text-transform: none;
+    margin-left: -10px;
 }
 
 .main .main__section3 .main__container ul li p {
+    margin-top: 7px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
     max-width: 107px;
+    text-transform: uppercase;
 }
 
 .main .main__section3 .main__container ul li #aktive-work {
@@ -361,7 +393,7 @@ button {
 }
 
 .main .main__section4 {
-    padding: 25px 90px 90px 95px;
+    padding: 30px 90px 90px 95px;
 }
 
 .main .main__section4 .main__container {
@@ -370,7 +402,7 @@ button {
 }
 
 .main .main__section4 .main__container h2 {
-    padding: 100px 0 60px 0;
+    padding: 100px 0 40px 0;
 }
 
 .main .main__section4 .main__container .swiper-container .swiper-wrapper .swiper-slide .swiper-slide-section {
@@ -384,7 +416,6 @@ button {
 }
 
 .main .main__section4 .main__container .swiper-container .swiper-wrapper .swiper-slide .swiper-slide-section .swiper-slide-section-litle-img img {
-    width: 100%;
     height: 100%;
     -o-object-fit: fill;
     object-fit: fill;
@@ -396,7 +427,6 @@ button {
 }
 
 .main .main__section4 .main__container .swiper-container .swiper-wrapper .swiper-slide .swiper-slide-section .swiper-slide-section-big-img img {
-    width: 100%;
     height: 100%;
     -o-object-fit: fill;
     object-fit: fill;
@@ -414,6 +444,10 @@ button {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding-top: 35px;
+}
+
+.main .main__section4 .main__container .main__section4-block-button .button-visible {
+    margin-top: 15px;
 }
 
 .main .main__section4 .main__container .main__section4-block-button .button-visible button {
@@ -607,7 +641,7 @@ button {
 }
 
 .main .main__section6 {
-    padding: 85px 95px;
+    padding: 80px 95px;
 }
 
 .main .main__section6 .main__container {
@@ -638,7 +672,7 @@ button {
 }
 
 .main .main__section6 .main__container .main__section6-menu-poslug h2 {
-    padding-bottom: 40px;
+    padding-bottom: 42px;
 }
 
 .main .main__section6 .main__container .main__section6-menu-poslug .tabs__items-menu-poslug::-webkit-scrollbar {
@@ -665,6 +699,7 @@ button {
     flex-direction: column;
     overflow-y: scroll;
     width: 366px;
+    border: none;
 }
 
 .main .main__section6 .main__container .main__section6-menu-poslug .tabs__items-menu-poslug .selectmenu {
@@ -673,7 +708,6 @@ button {
 
 .main .main__section6 .main__container .main__section6-menu-poslug .tabs__items-menu-poslug option {
     cursor: pointer;
-    padding-left: 20px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -681,12 +715,13 @@ button {
     line-height: 150%;
     color: #171A1E;
     opacity: 0.3;
-    padding-bottom: 32px;
+    padding-bottom: 37px;
     background: none;
     border: none;
 }
 
 .main .main__section6 .main__container .main__section6-menu-poslug .tabs__items-menu-poslug option:hover {
+    padding-left: 20px;
     opacity: 1;
     text-decoration: underline;
 }
@@ -815,7 +850,7 @@ button {
 }
 
 .main .main__section7 {
-    padding: 15px 95px 45px 95px;
+    padding: 20px 95px 45px 95px;
 }
 
 .main .main__section7 .main__container {
@@ -849,7 +884,7 @@ button {
 }
 
 .main .main__section7 .main__container .main__section7-slider .swiper .swiper-wrapper .swiper-slide a .swiper-slide-img p {
-    padding: 16px 0;
+    padding: 14px 0;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -888,7 +923,7 @@ button {
     flex-direction: row;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .main .main__section7 .main__container .main__section7-slider .main__slider-next-prev-button-block .button-left-rigch, .main .main__section7 .main__container .main__section7-slider .main__slider-next-prev-button-block #button-left-rigch {
@@ -981,7 +1016,7 @@ button {
 }
 
 .main .main__section9 {
-    padding: 5px 95px 0px 95px;
+    padding: 3px 95px 0px 95px;
 }
 
 .main .main__section9 .main__container {
@@ -1000,7 +1035,7 @@ button {
 }
 
 .main .main__section9 .main__container .main__section9-slider {
-    margin-bottom: 40px;
+    margin-bottom: 27px;
 }
 
 .main .main__section9 .main__container .main__section9-slider .swiper__section9 {
@@ -1082,7 +1117,7 @@ button {
 }
 
 .main .main__section9 .main__container .main__section9-slider .main__section9-slide-section-button .main__slider-next-prev-button-block {
-    margin-top: 40px;
+    margin-top: 14px;
 }
 
 .main .main__section9 .main__container .main__section9-slider .main__section9-slide-section-button button {
@@ -1094,6 +1129,7 @@ button {
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-top: -20px;
     width: 280px;
     height: 50px;
     border: 1px solid #171A1E;
@@ -1118,7 +1154,7 @@ button {
 }
 
 .main .main__section10 .main__container {
-    padding-top: 60px;
+    padding-top: 100px;
     border-top: 1px solid rgba(28, 29, 30, 0.2352941176);
     display: -ms-flexbox;
     display: flex;
@@ -1210,7 +1246,7 @@ button {
 }
 
 .main .main__section11 .main__container {
-    padding-top: 60px;
+    padding-top: 100px;
     border-top: 1px solid rgba(28, 29, 30, 0.2352941176);
     display: -ms-flexbox;
     display: flex;
@@ -1238,30 +1274,59 @@ button {
     text-transform: uppercase;
 }
 
+.main .main__section11 .main__container .main__section11-block {
+    padding-top: 40px;
+}
+
+.main .main__section11 .main__container .main__section11-block ul li {
+    padding-bottom: 17px;
+}
+
 .main .main__section11 .main__container .main__section11-block-write {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
     box-sizing: border-box;
-    width: 552px;
+    width: 452px;
     height: 439px;
     padding: 40px 48px;
+    margin-left: 140px;
     background: #FFFFFF;
     border: 1px solid rgba(23, 26, 30, 0.1);
 }
 
+.main .main__section11 .main__container .main__section11-block-write h2 {
+    padding-bottom: 20px;
+}
+
 .main .main__section11 .main__container .main__section11-block-write input {
-    height: 61px;
+    height: 65px;
     border: none;
     border-bottom: 1px solid rgba(23, 26, 30, 0.1);
     text-transform: uppercase;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
 }
 
 .main .main__section11 .main__container .main__section11-block-write button {
     margin-top: 60px;
-    width: 285px;
+    width: 280px;
     height: 52px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
 }
 
 #button {
@@ -1298,7 +1363,7 @@ button {
     display: flex;
     -ms-flex-direction: row;
     flex-direction: row;
-    padding-left: 67%;
+    padding-left: 60%;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
     padding-bottom: 32px;
@@ -1331,13 +1396,13 @@ button {
     position: relative;
     float: left;
     width: 25px;
-    height: 5px;
-    margin: 10px 0;
+    height: 3px;
+    margin: 0px 0;
     border-radius: 20px;
     background: #050505;
     overflow: hidden;
     transition: background 0.15s linear;
-    margin-bottom: 26px;
+    margin-bottom: 21px;
 }
 
 #radio_frame .radio:checked + .trigger {
@@ -1415,7 +1480,7 @@ button {
 
 @media screen and (max-width: 992px) {
     .header .navbar-container .navbar-logo {
-        z-index: 1000;
+        z-index: 1;
     }
 
     .header .navbar-container .navbar-logo .navbar__logo-block {
@@ -1476,4 +1541,30 @@ button {
     .main .tabs__block .main__section5-card-container .card-calendar:first-child {
         margin: 32px 0px;
     }
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+}
+
+#close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
