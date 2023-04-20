@@ -1,0 +1,474 @@
+.one-location__main {
+    background: rgba(0, 0, 0, 0.0235294118);
+    overflow: hidden;
+}
+
+.one-location__main .one-location__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0px 80px 0px 99px;
+    padding: 100px 0;
+    border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title .one-location__element a {
+    position: relative;
+    top: 17px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title .one-location__element a img {
+    padding-right: 14px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-title .one-location__element h2 {
+    margin-left: 25px;
+}
+
+.one-location__main .one-location__container .one-location__section .swiper-container {
+    margin-top: 60px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content {
+    margin-top: 55px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element {
+    -ms-flex: 0 1 47%;
+    flex: 0 1 47%;
+    margin-top: 5px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card {
+    margin-right: 15px;
+    float: right;
+    max-width: 35vw;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 38px 10px 38px 40px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card h4 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 160%;
+    color: #171A1E;
+    margin-bottom: 10px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    color: #747678;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card p a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #171A1E;
+    margin-left: 6px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card p img {
+    width: 18px;
+    margin-top: 4px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    margin-bottom: 8px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li p {
+    white-space: nowrap;
+    padding-right: 15px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li .space-p {
+    padding-left: 15px;
+    white-space: nowrap;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card .main__section6-card-poslug-tabl ul li span {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card button {
+    padding: 17px 0;
+    margin-top: 12px;
+    max-width: 364px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #171A1E;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__card button:hover {
+    background: #171A1E;
+    color: #FFFFFF;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content {
+    padding-bottom: 40px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element .one-location__element-text {
+    margin: 65px 0 0 45px;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element button {
+    margin: 25px 0 0 40px;
+    padding: 18px 40px;
+    padding: 17px 0;
+    max-width: 364px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #171A1E;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.one-location__main .one-location__container .one-location__section .one-location__block-content .one-location__element button:hover {
+    background: #171A1E;
+    color: #FFFFFF;
+}
+
+.one-location__main .one-location__container .coll-me {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.one-location__main .one-location__container .coll-me h2 {
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+}
+
+.one-location__main .one-location__container .coll-me button {
+    -ms-flex: 0 1 40%;
+    flex: 0 1 40%;
+    margin: 25px 0 0 40px;
+    padding: 18px 40px;
+    padding: 17px 0;
+    max-width: 364px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #171A1E;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.one-location__main .one-location__container .coll-me button:hover {
+    background: #171A1E;
+    color: #FFFFFF;
+}
+
+.one-location__main .one-location__container .swiper {
+    padding: 60px 0 100px 0;
+}
+
+.one-location__main .one-location__container .main__container {
+    border-top: 1px solid rgba(28, 29, 30, 0.2352941176);
+}
+
+.one-location__main .one-location__container .main__container .main__section5-flex-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 218px 10px 0 5px;
+}
+
+.one-location__main .one-location__container .main__container .main__section5-flex-box .main__section5-tab-calendar .tabs__items {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 18px;
+}
+
+.one-location__main .one-location__container .main__container .main__section5-flex-box .main__section5-tab-calendar .tabs__items .tabs__item {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+    opacity: 0.7;
+    padding-left: 30px;
+}
+
+.one-location__main .one-location__container .main__container .main__section5-flex-box .main__section5-tab-calendar .tabs__items .tabs__item:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.one-location__main .one-location__container .tabs__block {
+    margin-top: 60px;
+    display: none;
+}
+
+.one-location__main .one-location__container .tabs__block .main__section5-card-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys,
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar {
+    background: rgba(0, 0, 0, 0.0235294118);
+    background: #FFFFFF;
+    padding: 10px 35px 20px 44px;
+    border: 1px solid #000000;
+    overflow: hidden;
+}
+
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys .card-box,
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar .card-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 16px;
+}
+
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys .card-box img,
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar .card-box img {
+    padding-top: 4px;
+    width: 28px;
+    height: 26px;
+    margin-right: 4.7px;
+}
+
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar:first-child {
+    margin-right: 32px;
+}
+
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys {
+    width: 100%;
+}
+
+.one-location__main .one-location__container .tabs__block:target {
+    display: block;
+}
+
+.one-location__main .one-location__container .card-main {
+    margin-top: 24px;
+    padding-left: 7px;
+}
+
+.one-location__main .one-location__container .card-main ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.one-location__main .one-location__container .card-main ul li {
+    margin-bottom: 12px;
+    border-top: 2px solid rgba(8, 8, 8, 0.3176470588);
+    padding-top: 26px;
+}
+
+.one-location__main .one-location__container .card-main ul li p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.one-location__main .one-location__container .card-main ul li ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.one-location__main .one-location__container .card-main ul li ul li {
+    width: 151px;
+    border: none;
+    padding-top: 0px;
+}
+
+.one-location__main .one-location__container .card-main ul li ul li::hover {
+    background: #e41111;
+    opacity: 0.2;
+}
+
+.one-location__main .one-location__container .card-main ul li ul li:first-child {
+    padding-top: 26px;
+}
+
+.one-location__main .one-location__container .card-main ul li ul li p {
+    padding-top: 8px;
+}
+
+.one-location__main .one-location__container .card-main ul li:hover {
+    border-top: 2px solid #080808;
+}
+
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi {
+    margin-top: 62px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row .tab__column {
+    margin-bottom: 34px;
+}
+
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row .tab__column a {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row .tab__column a h4 {
+    margin-left: 16px;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 12vw;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+}
