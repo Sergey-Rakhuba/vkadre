@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/lcabinet.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/mod2.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/modal.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/tabs.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/one-location.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style-burger.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
@@ -35,13 +36,10 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title></title>
-</head>
+    <title></title></head>
 
 <body class="body">
-
-
-    <header class="header">
+    <header id="header" class="header">
        <nav class="navbar">
           <div class="navbar-container container">
              <div class="navbar-logo">
@@ -258,12 +256,11 @@
                    <br>
                    рады поговорить с вами!
                 </h2>
-                <button type="button" href="">
+                <button>
                    Заказать фотосессию
                 </button>         </div>
           </div>
        </div>
-
     <div class="footer">
        <div class="footer_container">
           <div class="navbar__menu-burger-cabinet">
@@ -296,7 +293,7 @@
                 <li><a href="" type="mail">VKADRE@GMAIL.COM</a></li>
              </ul></div>   </div>
        <div class="footer__mail">2022 © VKADRE.COM</div>
-    </div>    <div id="popup" class="popup popup.open">
+    </div>    <div id="popup" class="popup">
        <div class="popup__body">
           <div class="popup__content">
              <a href="#header" class="popup__close close-popup">X</a>
@@ -323,124 +320,655 @@
              </div>
           </div>
        </div>
+    </div>    <div id="popup-win" class="popup-win">
+       <div class="popup-body">
+          <div class="wrapper popup__content">
+             <div class="clorse-btn">
+                <a id="close-popup"><img src="assets/images/icon/close.png" alt=""></a>
+             </div>
+             <div class="tabs">
+                <div class="tabs__nav tabs-nav">
+                   <div class="tabs-nav__item is-active" data-tab-name="tab-1"><span>локация</span> </div>
+                   <div class="tabs-nav__item" data-tab-name="tab-2"><span>Время фотосессии и ваши данные</span></div>
+                   <div class="tabs-nav__item" data-tab-name="tab-3"><span>Оплата</span></div>
+                </div>
+                <div class="tabs__content">
+                   <div class="tab is-active tab-1">
+                      <div class="modal-tab__container">
+                         <h3>
+                            Выберите локацию
+                         </h3>
+                         <div class="location__tab">
+                            <div class="location__tab-menu">
+                               <a href="#tab-menu-location-01" class="tabs__item filter-button" data-filter="all">Все</a>
+                               <a href="#tab-menu-location-02" class="tabs__item filter-button"
+                                  data-filter="tab-menu-location-01">одесса
+                               </a>
+                               <a href="#tab-menu-location-03" class="tabs__item filter-button"
+                                  data-filter="tab-menu-location-02">южный</a>
+                               <a href="#tab-menu-location-04" class="tabs__item filter-button"
+                                  data-filter="tab-menu-location-03">Черноморск</a>
+                               <a href="#tab-menu-location-05" class="tabs__item filter-button"
+                                  data-filter="tab-menu-location-04">Фотостудии</a>
+                            </div>
+                            <div class="location__tab-img">
+                               <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01" itemid="location__all">
+                                  <div class="location__card-container">
+                                     <a href="one-location.html"><img class="location__card-img" src="assets/images/main/img5.png"
+                                           alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img8.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img6.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               
+                               <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-04">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img9.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-05">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img10.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img11.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img12.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img13.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-03">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img14.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="location__item tab-menu-location-04 popup__content-img" id="tab-menu-location-04">
+                                  <div class="container-location">
+                                     <img class="location__item-img" src="" alt="">
+                               
+                                     <button>Загрузить еще</button>
+                                  </div>
+                               
+                               </div>                           <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01" itemid="location__all">
+                                  <div class="location__card-container">
+                                     <a href="one-location.html"><img class="location__card-img" src="assets/images/main/img5.png"
+                                           alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img8.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img6.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               
+                               <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-04">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img9.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-05">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img10.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img11.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img12.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img13.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-03">
+                                  <div class="location__card-container">
+                                     <a href=""><img class="location__card-img" src="assets/images/main/img14.png" alt=""><div class="swiper-slide-img">
+                                  <h4>
+                                     Название локации
+                                  </h4>
+                               
+                                  <h6>
+                               
+                                  </h6>
+                                  <p>
+                                     <span>
+                                        <img src="assets/images/icon/location-m 1.png" alt="">г. Одесса
+                                     </span>
+                               
+                                     Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
+                                     следующий день. Они проходят только по нашему расписанию.
+                               
+                                  </p>
+                               </div></a>
+                                  </div>
+                               
+                               </div>
+                               <div class="location__item tab-menu-location-04 popup__content-img" id="tab-menu-location-04">
+                                  <div class="container-location">
+                                     <img class="location__item-img" src="" alt="">
+                               
+                                     <button>Загрузить еще</button>
+                                  </div>
+                               
+                               </div>
+                            </div>
+    
+                         </div>
+                         <div class="location__call">
+                            <button class="tabs-nav__item" data-tab-name="tab-2">
+                               Выбрать время
+                            </button>
+                         </div>
+                      </div>
+                   </div>
+                   <div class="tab tab-2">
+                      <div class="modal-tab__container">
+                         <h3>
+                            Выберите Дату и время
+                         </h3>
+                      </div>
+                      <div class="flex-container">
+                         <div class="flex-element">
+                            <div class="modal__flex-element-title">
+                               <div class="">Март 2022</div>
+                               <div class="">
+    
+                               </div>
+                            </div>
+                            <div class="flex-element-calendar">
+                               <div class="grid-item">1</div>
+                               <div class="grid-item">2</div>
+                               <div class="grid-item">3</div>
+                               <div class="grid-item">4</div>
+                               <div class="grid-item">5</div>
+                               <div class="grid-item">6</div>
+                               <div class="grid-item">7</div>
+                               <div class="grid-item">8</div>
+                               <div class="grid-item">9</div>
+                               <div class="grid-item">10</div>
+                               <div class="grid-item">11</div>
+                               <div class="grid-item">12</div>
+                               <div class="grid-item">13</div>
+                               <div class="grid-item">14</div>
+                               <div class="grid-item">15</div>
+                               <div class="grid-item">16</div>
+                               <div class="grid-item">17</div>
+                               <div class="grid-item">18</div>
+                               <div class="grid-item">19</div>
+                               <div class="grid-item">20</div>
+                               <div class="grid-item">21</div>
+                               <div class="grid-item">22</div>
+                               <div class="grid-item">23</div>
+                               <div class="grid-item">24</div>
+                               <div class="grid-item">25</div>
+                               <div class="grid-item">26</div>
+                               <div class="grid-item">27</div>
+                               <div class="grid-item">28</div>
+                               <div class="grid-item">29</div>
+                               <div class="grid-item">30</div>
+                               <div class="grid-item">31</div>
+                               <div class="grid-item-next-mons">1</div>
+                               <div class="grid-item-next-mons">2</div>
+                               <div class="grid-item-next-mons">3</div>
+                               <div class="grid-item-next-mons">4</div>
+                            </div>
+                         </div>
+                         <div class="flex-element">
+                            <div class="modal__flex-element-title">
+                               <div class="">Выберите подходящее время</div>
+                            </div>
+    
+                            <div class="flex-element-calendar">
+                               <div class="grid-item">10:00</div>
+                               <div class="grid-item">10:10</div>
+                               <div class="grid-item">10:20</div>
+                               <div class="grid-item">10:30</div>
+                               <div class="grid-item">10:40</div>
+                               <div class="grid-item">10:50</div>
+                               <div class="grid-item">11:00</div>
+                               <div class="grid-item">11:10</div>
+                               <div class="grid-item">11:20</div>
+                               <div class="grid-item">11:30</div>
+                               <div class="grid-item">11:40</div>
+                               <div class="grid-item">11:50</div>
+                            </div>
+                            <div class="">
+                               Длительность фотосессии
+                            </div>
+                            <div class="flex-element-calendar">
+                               <div class="grid-item">10 мин</div>
+                               <div class="grid-item">20 мин</div>
+                               <div class="grid-item">30 мин</div>
+                               <div class="grid-item">1 час</div>
+                            </div>
+                            <div class="ccer__ishod">
+                               <input type="checkbox">
+                               <p>Исходники <span>(весь отснятый материал)</span></p>
+                            </div>                     </div>
+    
+                         <div class="flex-element">
+                            <div class="modal__flex-element-title">
+                               <div class="">Сумма</div>
+                               <div class="">
+    
+                               </div>
+                            </div>
+                            <div class="flex-element-calendar">
+                               <div class="grid-item">Стоимость фотосессии: <span>1,290 ₴</span></div>
+                               <div class="grid-item">Доступность исходников:<span>1,290 ₴</span></div>
+                               <div class="grid-item">Итого:<span>1,290 ₴</span></div>
+    
+                            </div>
+                         </div>
+                      </div>
+                      <div class="button-flex-block">
+                         <div class="location__call">
+                            <button class="tabs-nav__item" data-tab-name="tab-1">
+                               назад
+                            </button>
+                         </div>
+                         <div class="location__call">
+                            <button class="tabs-nav__item" data-tab-name="tab-3">
+                               Выбрать время
+                            </button>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+                <div class="tab tab-3">
+                   <div class="modal-tab__container">
+    
+                      <h3>
+                         Оплата
+                      </h3>
+                   </div>
+                   <div class="flex-container">
+                      <div class="flex-element">
+                         <img src="assets/images/icon/img-modal.png" alt="">
+                      </div>
+                      <div class="flex-element">
+                         <ul>
+                            <li>
+                               <label for=""><img src="assets/images/icon/user-m.png" alt="">
+                               </label>
+                               <input type="name" value="Имя">
+                            </li>
+                            <li>
+                               <label for=""><img src="assets/images/icon/phone-m.png" alt="">
+                               </label>
+                               <input type="tel" value="Телефон">
+                            </li>
+                            <li>
+                               <label for=""><img src="assets/images/icon/email-m.png" alt="">
+                               </label>
+                               <input type="email" value="Почта">
+                            </li>
+                         </ul>
+                      </div>
+                      <div class="flex-element"></div>
+                   </div>
+                   <div class="button-flex-block">
+                      <div class="location__call">
+                         <button class="tabs-nav__item" data-tab-name="tab-2">
+                            назад
+                         </button>
+                      </div>
+                      <div class="location__call">
+                         <button class="">
+                            оплатить
+                         </button>
+                      </div>
+                   </div>
+                </div>
+             </div>
+    
+    
+          </div>
+       </div>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
-            console.log(scrollbar);
-            document.querySelector('[href="#openModal"]').addEventListener('click', function () {
-                document.body.style.overflow = 'hidden';
-                document.querySelector('#openModal').style.marginLeft = scrollbar;
-            });
-            document.querySelector('[href="#close"]').addEventListener('click', function () {
-                document.body.style.overflow = 'visible';
-                document.querySelector('#openModal').style.marginLeft = '0px';
-            });
-        });
-    </script>
-    <script>
-        var
-            images = document.images,
-            images_total_count = images.length,
-            images_loaded_count = 0,
-            preloader = document.getElementById('page-preloader'),
-            perc_display = document.getElementById('load_perc');
-
-        for (var i = 0; i < images_total_count; i++) {
-            image_clone = new Image();
-            image_clone.onload = image_loaded;
-            image_clone.onerror = image_loaded;
-            image_clone.src = images[i].src;
-        }
-        function image_loaded() {
-            images_loaded_count++;
-            perc_display.innerHTML = (((100 / images_total_count) * images_loaded_count) << 0) + '%';
-            //setTimeout(() => image_loaded, 1000);
-            //
-            if (images_loaded_count >= images_total_count) {
-                setTimeout(function () {
-                    if (!preloader.classList.contains('done')) {
-                        preloader.classList.add('done');
-                        perc_display.innerHTML = 'VKADRE';
-                    }
-                }, 2000);
-            }
-
-        }
-    </script>
-
-    <script>
-        function openCity(evt, houseType) {
-            // Declare all variables
-            var i, tabcontent, tablinks;
-
-            // Get all elements with class="tabcontent" and hide them
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-
-            // Get all elements with class="tablinks" and remove the class "active"
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-
-            // Show the current tab, and add an "active" class to the link that opened the tab
-            document.getElementById(houseType).style.display = "flex";
-            //document.getElementsByClassName(houseType).style.display = "";
-            evt.currentTarget.className += " active";
-        }
-
-    </script>
-    <script>
-        const email = document.getElementById("mail");
-
-        email.addEventListener("input", function (event) {
-            if (email.validity.typeMismatch) {
-                email.setCustomValidity("Не вірно вказаний e-mail адреса!");
-            } else {
-                email.setCustomValidity("");
-            }
-        });
-    </script>
+    </div>
     <script>
         function openNav() {
             document.getElementById("menu-burger").style.width = "100%";
         }
         function closeNav() {
             document.getElementById("menu-burger").style.width = "0";
-        }
+        };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper(".swiper", {
-            loop: true,
-            spaceBetween: 10,
-            slidesPerView: 3,
-        });
-        var swiper2 = new Swiper(".swiper2", {
-            direction: 'horosontal',
-            loop: true,
-            spaceBetween: 10,
-            slidesPerView: 4,
-        });
-
-
-
-    </script>
-
-    <script src="assets/js/filr.js"></script>
     <script src="assets/js/app.js"></script>
-    <script src="assets/js/popup.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-
 </body>
 
 </html>
