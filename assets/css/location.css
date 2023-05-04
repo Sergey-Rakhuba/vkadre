@@ -1,3 +1,24 @@
+h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+@media (max-width: 767px) {
+    h2 {
+        font-size: calc(16px + 27.2 * ((100vw - 320px) / 1440));
+    }
+}
+
+@media (min-width: 767px) {
+    h2 {
+        font-size: calc(16px + 16 * (100vw/ 1440));
+    }
+}
+
 .location__body {
     background: rgba(0, 0, 0, 0.0235294118);
     overflow: hidden;
@@ -8,14 +29,20 @@
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: 0px 99px;
-    padding: 68px 0;
+    margin: 0px 79px;
+    padding: 78px 0;
     border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
     min-height: 100%;
     overflow: hidden;
 }
 
+.location__body .location__container h1 {
+    margin-left: 15px;
+}
+
 .location__body .location__container p {
+    margin-left: 19px;
+    margin-top: 5px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
@@ -25,18 +52,20 @@
 }
 
 .location__body .location__container .location__tab {
-    margin-top: 60px;
+    margin-top: 58px;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
 
 .location__body .location__container .location__tab .location__tab-menu {
+    margin-left: 19px;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    padding-bottom: 15px;
 }
 
 .location__body .location__container .location__tab .location__tab-menu a {
@@ -72,10 +101,9 @@
     flex-wrap: wrap;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-top: 16px;
+    margin-top: 0px;
     border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
-    padding: 40px 0 100px 0;
-    border-bottom: 1px solid rgba(23, 26, 30, 0.1176470588);
+    padding: 25px 0 57px 0;
 }
 
 .location__body .location__container .location__tab .location__tab-img .location__card {
@@ -96,11 +124,26 @@
 }
 
 .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img h4 {
-    margin: 40px 0 0 0;
+    margin: 35px 0 0 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
 }
 
 .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img p {
     padding-bottom: 28px;
+    margin: 2px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 260%;
+    line-height: 160%;
+}
+
+.location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img p span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 360%;
+    color: #171A1E;
 }
 
 .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img img {
@@ -108,11 +151,25 @@
 }
 
 .location__body .location__container .location__tab .location__tab-img .location__card:target {
-    display: block;
+    display: bloc;
 }
 
 .location__body .location__container .location__tab .location__tab-img .location__item {
     display: none;
+}
+
+.location__body .location__container .location__tab .container-location-button {
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid rgba(23, 26, 30, 0.1176470588);
+    max-width: 100%;
+    padding-bottom: 60px;
+}
+
+.location__body .location__container .location__tab .container-location-button button {
+    margin: 0 auto;
+    max-width: 390px;
+    width: 100%;
 }
 
 .location__body .location__container .location__call {
@@ -127,7 +184,29 @@
     justify-content: space-between;
 }
 
-.location__body .location__container .location__call button {
+.location__body .location__container .location__call h2 {
+    margin-left: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+@media (max-width: 767px) {
+    .location__body .location__container .location__call h2 {
+        font-size: calc(16px + 27.2 * ((100vw - 320px) / 1440));
+    }
+}
+
+@media (min-width: 767px) {
+    .location__body .location__container .location__call h2 {
+        font-size: calc(16px + 16 * (100vw/ 1440));
+    }
+}
+
+.location__body .location__container button {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: row;
@@ -136,11 +215,11 @@
     justify-content: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 276px;
-    height: 52px;
+    width: 274px;
+    height: 50px;
     border: 1px solid #171A1E;
     font-family: "Inter";
-    margin-top: 20px;
+    margin: 27px 15px 0 0;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -151,7 +230,7 @@
     color: #171A1E;
 }
 
-.location__body .location__container .location__call button:hover {
+.location__body .location__container button:hover {
     background: #171A1E;
     color: #FFFFFF;
 }
@@ -232,13 +311,80 @@
 }
 
 @media screen and (max-width: 350px) {
-    .location__body .location__container .location__tab .location__tab-img .location__item .container-location {
+    .location__body .location__container .location__tab .location__tab-menu {
+        padding-bottom: 0;
+    }
+
+    .location__body .location__container .location__tab .location__tab-menu a {
+        margin-bottom: 15px;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img {
+        padding: 25px 0 57px 0;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img .location__card .container-location {
         padding: 10px;
     }
 
-    .location__body .location__container .location__call button button, .location__body .location__container .location__tab .location__tab-img .location__item button {
+    .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container img {
+        max-height: 180px;
+        width: 100%;
+    }
+
+    .location__body .location__container {
+        padding: 40px 0;
+        margin: 0 8px;
+    }
+
+    .location__body .location__container p {
+        margin: 16px 0 0 15px;
+        width: 80%;
+    }
+
+    .location__body .location__container .location__call button,
+  .location__body .location__container .location__tab {
+        margin-top: 42px;
+    }
+
+    .location__body .location__container .location__call button .location__tab-img .location__item button,
+  .location__body .location__container .location__tab .location__tab-img .location__item button {
         padding: 0 0px;
         max-width: 256px;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img h4 {
+        margin: 10px 0 0 0px;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img h6 {
+        margin-top: 18px;
+        position: relative;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img h6 img {
+        position: absolute;
+        top: 3px;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img h6 span {
+        position: relative;
+        left: 25px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        margin-right: 8px;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img p {
+        margin-top: -12px;
+        max-width: 100%;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .location__body .location__container .location__tab .location__tab-img .location__card .location__card-container .swiper-slide-img p span {
+        line-height: 270%;
     }
 
     .location__body .location__container .location__tab .location__tab-img .location__section .location__section-litle-img, .location__body .location__container .location__tab .location__tab-img .location__section .location__section-big-img {

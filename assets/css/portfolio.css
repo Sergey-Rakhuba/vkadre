@@ -131,6 +131,27 @@
     justify-content: space-between;
 }
 
+.portfolio__body .portfolio__container .portfolio__call h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+@media (max-width: 767px) {
+    .portfolio__body .portfolio__container .portfolio__call h2 {
+        font-size: calc(16px + 27.2 * ((100vw - 320px) / 1440));
+    }
+}
+
+@media (min-width: 767px) {
+    .portfolio__body .portfolio__container .portfolio__call h2 {
+        font-size: calc(16px + 16 * (100vw/ 1440));
+    }
+}
+
 .portfolio__body .portfolio__container .portfolio__call button {
     display: -ms-flexbox;
     display: flex;

@@ -21,7 +21,7 @@
     flex: 1;
     padding: 20px 0;
     border-color: #171A1E;
-    margin-right: 32px;
+    margin-right: 20px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -40,9 +40,8 @@
 }
 
 .tab {
-    background-color: #f2f2f2;
     display: none;
-    padding: 20px;
+    padding: 0px;
 }
 
 .tab.is-active {

@@ -79,6 +79,10 @@ a {
     padding: 24px 99px;
 }
 
+.header .navbar-container .navbar__menu-block .navbar__menu-section-menu {
+    width: 137px;
+}
+
 .header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul {
     list-style: none;
 }
@@ -97,8 +101,30 @@ a {
     color: #171A1E;
 }
 
+.header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul li a:hover, .header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul li a:active, .header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul li a:focus {
+    color: #171a1e;
+    font-weight: 600;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul li a:hover img, .header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul li a:active img, .header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul li a:focus img {
+    margin-top: 8px;
+    height: 8px;
+    display: block;
+    margin-right: 15px;
+}
+
+.header .navbar-container .navbar__menu-block .navbar__menu-section-menu ul li a img {
+    display: none;
+}
+
 .header .navbar-container .navbar__menu-block .navbar__menu-section-contact {
-    padding: 0 148px 0 72px;
+    padding: 0 110px 0 27px;
 }
 
 .header .navbar-container .navbar__menu-block .navbar__menu-section-contact ul {
@@ -245,6 +271,18 @@ a {
 }
 
 @media (max-width: 1240px) {
+    .header .menu-burger .navbar__logo-text ul li a, .header .menu-burger .navbar__menu-section-menu ul li a, .header .menu-burger .navbar__menu-section-contact ul li a {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 1240px) {
     .header .menu-burger .navbar__menu-section-contact {
         margin-top: 87px;
         padding-top: 40px;
@@ -269,6 +307,10 @@ a {
         z-index: 1000;
         -ms-flex: 1 1 auto;
         flex: 1 1 auto;
+    }
+
+    .header .menu-burger .navbar__menu-section-menu img {
+        display: none;
     }
 }
 
@@ -303,5 +345,12 @@ a {
         width: 38.6px;
         height: 40px;
         zoom: 50%;
+    }
+
+    .header .navbar .navbar-container .navbar-logo .navbar__logo-block a img {
+        display: -ms-flexbox;
+        display: flex;
+        height: 40px;
+        width: 39px;
     }
 }
