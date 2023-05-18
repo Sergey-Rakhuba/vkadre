@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="assets/css/modal.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/tabs.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/one-location.min.css" type="text/css">
-    <!--<link rel="stylesheet" href="assets/css/style-burger.min.css" type="text/css">-->
+    <link rel="stylesheet" href="assets/css/photograph.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Document</title>
     <!--
@@ -69,7 +69,7 @@
                                <img src="assets/images/icon/User.png" alt="">
                             </li>
                             <li>
-                               личный кабинет
+                               <span>личный кабинет</span>
                             </li>
                          </ul>
                       </a>
@@ -96,7 +96,7 @@
                             <img src="assets/images/icon/User.png" alt="">
                          </li>
                          <li>
-                            личный кабинет
+                            <span>личный кабинет</span>
                          </li>
                       </ul>
                    </a>
@@ -119,7 +119,7 @@
                             <img src="assets/images/icon/User.png" alt="">
                          </li>
                          <li>
-                            личный кабинет
+                            <span>личный кабинет</span>
                          </li>
                       </ul>
                    </a>
@@ -209,14 +209,16 @@
                    <div class="swiper">
                       <div class="main__slider-next-prev-button-block">
                          <div id="button-left-rigch" class="button-left-rigch">
-                            <div class="swiper-prev prev-button-prev swiper2-prev swiper__section7-prev" id="swiper-prev">
+                            <div class="swiper-prev prev-button-prev swiper2-prev swiper__section7-prev popup-order-slider-prev"
+                               id="swiper-prev">
                                <svg width="84" height="11" viewBox="0 0 84 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path fill-rule="evenodd" clip-rule="evenodd"
                                      d="M0.713348 0.166504C-0.339027 0.166523 0.395477 1.34713 0.713348 1.69732L9.22676 10.7372C9.54464 11.0874 10.06 11.0874 10.3779 10.7372C10.6958 10.387 10.6958 9.81926 10.3779 9.46908L3.25401 1.95995H82.686C83.1356 1.95995 83.5 1.55849 83.5 1.06326C83.5 0.568023 83.1356 0.166559 82.686 0.166559H3.25401C3.25401 0.166559 0.881935 0.166501 0.713348 0.166504Z"
                                      fill="#171A1E" />
                                </svg>
                             </div>
-                            <div class="swiper-next prev-button-next swiper2-next swiper__section7-next" id="swiper-next">
+                            <div class="swiper-next prev-button-next swiper2-next swiper__section7-next popup-order-slider-next"
+                               id="swiper-next">
                                <svg width="84" height="11" viewBox="0 0 84 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                   <path fill-rule="evenodd" clip-rule="evenodd"
                                      d="M83.2867 10.8333C84.339 10.8332 83.6045 9.65262 83.2867 9.30244L74.7732 0.262554C74.4554 -0.0876274 73.94 -0.0876274 73.6221 0.262554C73.3042 0.612737 73.3042 1.18049 73.6221 1.53068L80.746 9.0398H1.31397C0.864427 9.0398 0.5 9.44127 0.5 9.9365C0.5 10.4317 0.864427 10.8332 1.31397 10.8332H80.746C80.746 10.8332 83.1181 10.8333 83.2867 10.8333Z"
@@ -278,7 +280,7 @@
     
                    </p>
                 </div>
-                <div class="main__box">
+                <div class="main__box main__box-1">
                    <img src="assets/images/icon/Frame2.png" alt="">
                    <h4>
                       БЫСТРО
@@ -288,7 +290,7 @@
     
                    </p>
                 </div>
-                <div class="main__box">
+                <div class="main__box main__box-2">
                    <img src="assets/images/icon/Frame3.png" alt="">
                    <h4>
                       КАЧЕСТВЕННО
@@ -297,7 +299,7 @@
                       мы снимаем на профессиональную топовую технику.
                    </p>
                 </div>
-                <div class="main__box">
+                <div class="main__box main__box-3">
                    <img src="assets/images/icon/Frame4.png" alt="">
                    <h4>
                       ИНДИВИДУАЛЬНО
@@ -482,41 +484,28 @@
        </div>
        <div class="main__section5">
           <div class="main__container">
-             <div class="main__section5-flex-box">
-                <div class="main__section5-title tabs">
-                   <h2>Календарь <span>на <span>16-22 марта</span> <a class="swiper-child-7deys-prev"><img
-                               src="assets/images/icon/prev.png" alt=""></a>
-                         <a class="swiper-child-7deys-next"><img src="assets/images/icon/next.png" alt=""></a></span></h2>
           
-                </div>
-                <div class="city">
-                   <div class="swiper-city">
-                      <div class="swiper-wrapper">
-                         <div class="swiper-slide">
-                            <a> одесса</a>
-                         </div>
-                         <div class="swiper-slide">
-                            <a>южный</a>
-                         </div>
-                         <div class="swiper-slide">
-                            <a>сочи</a>
-                         </div>
-                         <div class="swiper-slide">
-                            <a>адлер</a>
-                         </div>
-                      </div>
-                   </div>
-          
-                   <div class="tabs__nav tabs-nav">
-                      <div class="tabs-nav__item is-active" data-tab-name="tab-1"><a class="tabs__item"></a>3 дня</a> </div>
-                      <div class="tabs-nav__item" data-tab-name="tab-2"><a class="tabs__item"></a>7 дней</a></div>
-                      <div class="tabs-nav__item" data-tab-name="tab-3"><a class="tabs__item"></a>1 месяц</a></div>
-                   </div>
-                </div>
-             </div>
              <div class="tabs">
                 <div class="tabs__content">
                    <div class="tab is-active tab-1">
+                      <div class="main__section5-flex-box">
+                         <div class="main__section5-title tabs">
+                            <h2>Календарь </h2>
+                         </div>
+                         <div class="city">
+                            <div class="tabs__nav tabs-nav">
+                               <div class="tabs-nav__item is-active tabs-nav__item-3-days" data-tab-name="tab-1"><a
+                                     class="tabs__item"></a>3 дня</a>
+                               </div>
+                               <div class="tabs-nav__item" data-tab-name="tab-2"><a class="tabs__item"></a> <span>7 дней</span>
+                                  <img src="assets/images/icon/List.png" alt=""></a>
+                               </div>
+                               <div class="tabs-nav__item" data-tab-name="tab-3"><a class="tabs__item"></a> <span>1 месяц</span>
+                                  <img src="assets/images/icon/Vector1.png" alt=""></a>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
                       <div class="main__section5-card-container">
                          <div class="card-calendar">
                             <div class="card-calendar-slider">
@@ -1481,6 +1470,53 @@
                          </div>
                       </div>         </div>
                    <div class="tab tab-2">
+                      <div class="main__section5-flex-box">
+                         <div class="main__section5-title tabs">
+                            <h2>Календарь <span id="calendar-data">на <span>16-22 марта</span> <a
+                                     class="swiper-child-7deys-prev"><img src="assets/images/icon/prev.png" alt=""></a>
+                                  <a class="swiper-child-7deys-next"><img src="assets/images/icon/next.png" alt=""></a></span>
+                            </h2>
+          
+                         </div>
+                         <div class="city">
+          
+                            <div class="swiper-city-tab-2">
+                               <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                     <a> одесса</a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <a>южный</a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <a>сочи</a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <a>адлер</a>
+                                  </div>
+                               </div>
+                            </div>
+          
+                            <div class="tabs__nav tabs-nav">
+                               <div class="tabs-nav__item is-active tabs-nav__item-3-days" data-tab-name="tab-1"><a
+                                     class="tabs__item"></a>3 дня</a>
+                               </div>
+                               <div class="tabs-nav__item" data-tab-name="tab-2"><a class="tabs__item"></a> <span>7 дней</span>
+                                  <img src="assets/images/icon/List.png" alt=""></a>
+                               </div>
+                               <div class="tabs-nav__item" data-tab-name="tab-3"><a class="tabs__item"></a> <span>1 месяц</span>
+                                  <img src="assets/images/icon/Vector1.png" alt=""></a>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                      <select name="" id="selectCity">
+                         <option value="">ВСе ГОРОДА</option>
+                         <option value="">Одесса</option>
+                         <option value="">южный</option>
+                         <option value="">сочи</option>
+                         <option value="">адлер</option>
+                      </select>
                       <div class="main__section5-card-container">
                          <div class="card-calendar-7deys">
                             <div class="card-calendar-slider">
@@ -1706,7 +1742,7 @@
                                                        </li>      </ul>
                                                  </div>
                                               </div>   </div>
-                                        </div>               </div>
+                                        </div>   </div>
                                      <div data-hash="yugniy" class="swiper-slide">
                                         <div class="swiper-child-7deys">
                                            <div class="swiper-wrapper">
@@ -1927,7 +1963,7 @@
                                                        </li>      </ul>
                                                  </div>
                                               </div>   </div>
-                                        </div>               </div>
+                                        </div>   </div>
                                      <div data-hash="sichi" class="swiper-slide">
                                         <div class="swiper-child-7deys">
                                            <div class="swiper-wrapper">
@@ -2148,7 +2184,7 @@
                                                        </li>      </ul>
                                                  </div>
                                               </div>   </div>
-                                        </div>               </div>
+                                        </div>   </div>
                                      <div data-hash="adler" class="swiper-slide">
                                         <div class="swiper-child-7deys">
                                            <div class="swiper-wrapper">
@@ -2369,15 +2405,62 @@
                                                        </li>      </ul>
                                                  </div>
                                               </div>   </div>
-                                        </div>               </div>
+                                        </div>   </div>
+                                  </div>         </div>
+                            </div>
+                         </div>
+                      </div>         </div>
+                   <div class="tab tab-3">
+                      <div class="main__section5-flex-box">
+                         <div class="main__section5-title tabs">
+                            <h2>Календарь <span id="calendar-data"><span>на</span> март <a class="swiper-child-7deys-prev"><img
+                                        src="assets/images/icon/prev.png" alt=""></a>
+                                  <a class="swiper-child-7deys-next"><img src="assets/images/icon/next.png" alt=""></a></span>
+                            </h2>
+          
+                         </div>
+                         <div class="city">
+                            <div class="swiper-city-month">
+                               <div class="swiper-wrapper">
+                                  <div class="swiper-slide">
+                                     <a> одесса</a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <a>южный</a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <a>сочи</a>
+                                  </div>
+                                  <div class="swiper-slide">
+                                     <a>адлер</a>
                                   </div>
                                </div>
                             </div>
-                         </div>
-                      
-                      </div>         </div>
-                   <div class="tab tab-3">
           
+                            <div class="tabs__nav tabs-nav">
+                               <div class="tabs-nav__item is-active tabs-nav__item-3-days" data-tab-name="tab-1"><a
+                                     class="tabs__item"></a>3 дня</a>
+                               </div>
+                               <div class="tabs-nav__item" data-tab-name="tab-2"><a class="tabs__item"></a> <span> <span>7
+                                        дней</span></span>
+                                  <img src="assets/images/icon/List.png" alt=""></a>
+                               </div>
+                               <div class="tabs-nav__item" data-tab-name="tab-3"><a class="tabs__item"></a> <span>1 месяц</span>
+                                  <img src="assets/images/icon/Vector1.png" alt=""></a>
+                               </div>
+                            </div>
+                         </div>
+                      </div>
+                      <select name="" id="selectCity">
+                         <option value="">ВСе ГОРОДА</option>
+                         <option value="">Одесса</option>
+                         <option value="">южный</option>
+                         <option value="">сочи</option>
+                         <option value="">адлер</option>
+                      </select>
+                      <div class="month-block">
+                         <p>Март 2022</p>
+                      </div>
                       <ul class="weekdays">
                          <li>Понедельник</li>
                          <li>Вторник</li>
@@ -2388,93 +2471,469 @@
                          <li>Воскресение</li>
                       </ul>
           
-                      <ul class="days">
-                         <li>1
-                            <a href="">
-                               3 фотосессии
-                            </a>
-                         </li>
-                         <li>2<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>3</li>
-                         <li>4<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>5<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>6<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>7</li>
-                         <li>8<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>9</li>
-                         <li><span class="active">10<a href="">
-                                  3 фотосессии
-                               </a></span></li>
-                         <li>11<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>12<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>13<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>14<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>15<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>16<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>17<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>18</li>
-                         <li>19<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>20<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>21</li>
-                         <li>22</li>
-                         <li>23<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>24<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>25<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>26<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>27</li>
-                         <li>28<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>29<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>30<a href="">
-                               3 фотосессии
-                            </a></li>
-                         <li>31<a href="">
-                               3 фотосессии
-                            </a></li>
-                      </ul>
+                      <div class="swiper-month">
+                         <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                               <ul class="days">
+                                  <li>1<a>3 фотосессии</a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>2<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>3</li>
+                                  <li>4<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>5<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>6<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>7</li>
+                                  <li>8<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>9</li>
+                                  <li>10<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>11<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>12<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>13<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>14<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>15<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>16<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>17<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>18</li>
+                                  <li>19<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>20<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>21</li>
+                                  <li>22</li>
+                                  <li>23<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>24<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>25<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>26<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>27</li>
+                                  <li>28<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>29<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>30<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>31<a>
+                                        3 фотосессии
+                                     </a></li>
+                               </ul>                  </div>
+                            <div class="swiper-slide">
+                               <ul class="days">
+                                  <li>1<a>3 фотосессии</a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>2<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>3</li>
+                                  <li>4<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>5<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>6<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>7</li>
+                                  <li>8<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>9</li>
+                                  <li>10<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>11<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>12<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>13<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>14<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>15<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>16<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>17<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>18</li>
+                                  <li>19<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>20<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>21</li>
+                                  <li>22</li>
+                                  <li>23<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>24<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>25<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>26<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>27</li>
+                                  <li>28<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>29<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>30<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>31<a>
+                                        3 фотосессии
+                                     </a></li>
+                               </ul>                  </div>
+                            <div class="swiper-slide">
+                               <ul class="days">
+                                  <li>1<a>3 фотосессии</a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>2<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>3</li>
+                                  <li>4<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>5<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>6<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>7</li>
+                                  <li>8<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>9</li>
+                                  <li>10<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>11<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>12<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>13<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>14<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>15<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>16<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>17<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>18</li>
+                                  <li>19<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>20<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>21</li>
+                                  <li>22</li>
+                                  <li>23<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>24<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>25<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>26<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>27</li>
+                                  <li>28<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>29<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>30<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>31<a>
+                                        3 фотосессии
+                                     </a></li>
+                               </ul>                  </div>
+                            <div class="swiper-slide">
+                               <ul class="days">
+                                  <li>1<a>3 фотосессии</a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>2<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>3</li>
+                                  <li>4<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>5<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>6<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>7</li>
+                                  <li>8<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>9</li>
+                                  <li>10<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>11<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>12<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>13<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>14<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>15<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>16<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>17<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>18</li>
+                                  <li>19<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>20<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>21</li>
+                                  <li>22</li>
+                                  <li>23<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>24<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>25<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>26<a>
+                                        3 фотосессии
+                                     </a></li>
+                                  <li>27</li>
+                                  <li>28<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>29<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>30<a>
+                                        3 фотосессии
+                                     </a>
+                                     <p>...</p>
+                                  </li>
+                                  <li>31<a>
+                                        3 фотосессии
+                                     </a></li>
+                               </ul>                  </div>
+                         </div>
+                      </div>
                    </div>
                 </div>
              </div>
-          
           </div>   </div>
        <div class="main__section6">
           <div class="main__container">
@@ -2482,56 +2941,65 @@
                 <h2>
                    Услуги
                 </h2>
-                <!--<select size="1" name="type" class="tabs__items-menu-poslug">
-                   <option value="#tab-menu-poslug-01">Экспресс-фотосессии</option>
-                   <option value="#tab-menu-poslug-02">Индивидуальные фотосессии </option>
-                   <option value="#tab-menu-poslug-03">Экспресс-видеосъёмка</option>
-                   <option value="#tab-menu-poslug-01">Семейная фотосессия</option>
-                   <option value="#tab-menu-poslug-02">Фотосессии в Южном </option>
-                   <option value="#tab-menu-poslug-03">Фотоконтент </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия беременности </option>
-                   <option value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
-                   <option value="#tab-menu-poslug-01">Love Story </option>
-                   <option value="#tab-menu-poslug-01">Студийная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Предметная фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-02">Домашняя фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Свадебная фотосессия </option>
-                   <option value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия под ключ </option>
-                   <option value="#tab-menu-poslug-03">Фотопикник </option>
-                   <option value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>-->
+    
+                <select onchange="window.location.href=this.options[this.selectedIndex].value" size="1" name="type"
+                   class="tabs__items-menu-poslug-320">
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-01" value="#tab-menu-poslug-01">Экспресс-фотосессии
+                   </option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-02" value="#tab-menu-poslug-02">Индивидуальные
+                      фотосессии</option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-03" value="#tab-menu-poslug-03">Экспресс-видеосъёмка
+                   </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Семейная фотосессия</option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессии в Южном </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотоконтент </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия беременности </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Love Story </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Студийная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Предметная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Домашняя фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Свадебная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия под ключ </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотопикник </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>
                 <select multiple onchange="window.location.href=this.options[this.selectedIndex].value" size="11"
                    name="type" class="tabs__items-menu-poslug">
-                   <option value="#tab-menu-poslug-01">Экспресс-фотосессии</option>
-                   <option value="#tab-menu-poslug-02">Индивидуальные фотосессии </option>
-                   <option value="#tab-menu-poslug-03">Экспресс-видеосъёмка</option>
-                   <option value="#tab-menu-poslug-01">Семейная фотосессия</option>
-                   <option value="#tab-menu-poslug-02">Фотосессии в Южном </option>
-                   <option value="#tab-menu-poslug-03">Фотоконтент </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия беременности </option>
-                   <option value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
-                   <option value="#tab-menu-poslug-01">Love Story </option>
-                   <option value="#tab-menu-poslug-01">Студийная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Предметная фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-02">Домашняя фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Свадебная фотосессия </option>
-                   <option value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия под ключ </option>
-                   <option value="#tab-menu-poslug-03">Фотопикник </option>
-                   <option value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-01" value="#tab-menu-poslug-01">Экспресс-фотосессии
+                   </option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-02" value="#tab-menu-poslug-02">Индивидуальные
+                      фотосессии</option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-03" value="#tab-menu-poslug-03">Экспресс-видеосъёмка
+                   </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Семейная фотосессия</option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессии в Южном </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотоконтент </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия беременности </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Love Story </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Студийная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Предметная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Домашняя фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Свадебная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия под ключ </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотопикник </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>
              </div>
              <div class="main__section6-card-poslug">
-                <div class="tabs__body" id="tab-menu-poslug-01">
+                <div class="tabs__body is-active tab-menu-poslug-01 " id="tab-menu-poslug-01">
                    <div class="tabs__menu-block">
                       <h3>
                          Экспресс-фотосессии
                       </h3>
+    
                       <img src="assets/images/uslugi/img1.png" alt="">
                       <p>Самый доступный вид фотосессии, в результате которой Вы получите качественные снимки уже на
                          следующий
@@ -2565,7 +3033,7 @@
                                   грн.</p>
                             </li>
                             <li>
-                               <p>Исходники (весь отснятый
+                               <p>Исходники (весь <br>отснятый
                                   материал)</p><span>...............................................................................</span>
                                <div class="space-p">
                                   <p>199
@@ -2580,7 +3048,7 @@
                       </button>               </div>
                 </div>
     
-                <div class="tabs__body" id="tab-menu-poslug-02">
+                <div class="tabs__body tab-menu-poslug-02" id="tab-menu-poslug-02">
                    <div class="tabs__menu-block">
                       <h3>
                          Индивидуальные фотосессии
@@ -2618,7 +3086,7 @@
                                   грн.</p>
                             </li>
                             <li>
-                               <p>Исходники (весь отснятый
+                               <p>Исходники (весь <br>отснятый
                                   материал)</p><span>...............................................................................</span>
                                <div class="space-p">
                                   <p>199
@@ -2633,7 +3101,7 @@
                       </button>               </div>
     
                 </div>
-                <div class="tabs__body" id="tab-menu-poslug-03">
+                <div class="tabs__body tab-menu-poslug-03" id="tab-menu-poslug-03">
                    <div class="tabs__menu-block">
                       <h3>
                          Семейная фотосессия
@@ -2671,7 +3139,7 @@
                                   грн.</p>
                             </li>
                             <li>
-                               <p>Исходники (весь отснятый
+                               <p>Исходники (весь <br>отснятый
                                   материал)</p><span>...............................................................................</span>
                                <div class="space-p">
                                   <p>199
@@ -2697,7 +3165,7 @@
                 <h2>Информация о локациях</h2>
              </div>
              <div class="main__section7-slider">
-                <div class="swiper swiper__section7">
+                <div class="swiper__section7">
                    <!-- Additional required wrapper -->
                    <div class="swiper-wrapper">
                       <!-- Slides -->
@@ -2708,7 +3176,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2727,7 +3196,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2746,7 +3216,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2765,7 +3236,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2784,7 +3256,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2803,7 +3276,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2822,7 +3296,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2841,7 +3316,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2860,7 +3336,8 @@
        </h4>
     
        <h6>
-          <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+          <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+          <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
        </h6>
        <p>
           <span>
@@ -2929,7 +3406,7 @@
                    <div class="swiper-wrapper">
                       <!-- Slides -->
                       <div class="swiper-slide">
-                         <a href="photograph.html" data-page="0">
+                         <a href="photograph.html#Photograph-1" data-page="0">
                             <img class="swiper-slide-img" src="assets/images/photograf/photo1.png" alt="">
                             <div class="swiper-slide-img">
                                <h4>
@@ -2940,8 +3417,9 @@
                                </p>
                             </div>                     </a>
                       </div>
-                      <div class="swiper-slide"><a href="photograph.html" data-page="1"><img class="swiper-slide-img"
-                               src="assets/images/photograf/photo2.png" alt=""><div class="swiper-slide-img">
+                      <div class="swiper-slide"><a href="photograph.html#Photograph-2" data-page="1"><img
+                               class="swiper-slide-img" src="assets/images/photograf/photo2.png"
+                               alt=""><div class="swiper-slide-img">
        <h4>
           САША ИВАНОВ
        </h4>
@@ -2950,8 +3428,9 @@
        </p>
     </div></a>
                       </div>
-                      <div class="swiper-slide"><a href="photograph.html" data-page="2"><img class="swiper-slide-img"
-                               src="assets/images/photograf/photo3.png" alt=""><div class="swiper-slide-img">
+                      <div class="swiper-slide"><a href="photograph.html#Photograph-3" data-page="2"><img
+                               class="swiper-slide-img" src="assets/images/photograf/photo3.png"
+                               alt=""><div class="swiper-slide-img">
        <h4>
           САША ИВАНОВ
        </h4>
@@ -2960,8 +3439,9 @@
        </p>
     </div></a>
                       </div>
-                      <div class="swiper-slide"><a href="photograph.html" data-page="3"><img class="swiper-slide-img"
-                               src="assets/images/photograf/photo4.png" alt=""><div class="swiper-slide-img">
+                      <div class="swiper-slide"><a href="photograph.html#Photograph-4" data-page="3"><img
+                               class="swiper-slide-img" src="assets/images/photograf/photo4.png"
+                               alt=""><div class="swiper-slide-img">
        <h4>
           САША ИВАНОВ
        </h4>
@@ -2970,8 +3450,9 @@
        </p>
     </div></a>
                       </div>
-                      <div class="swiper-slide"><a href="photograph.html" data-page="0"><img class="swiper-slide-img"
-                               src="assets/images/photograf/photo1.png" alt=""><div class="swiper-slide-img">
+                      <div class="swiper-slide"><a href="photograph.html#Photograph-5" data-page="0"><img
+                               class="swiper-slide-img" src="assets/images/photograf/photo1.png"
+                               alt=""><div class="swiper-slide-img">
        <h4>
           САША ИВАНОВ
        </h4>
@@ -2980,8 +3461,9 @@
        </p>
     </div></a>
                       </div>
-                      <div class="swiper-slide"><a href="photograph.html" data-page="1"><img class="swiper-slide-img"
-                               src="assets/images/photograf/photo2.png" alt=""><div class="swiper-slide-img">
+                      <div class="swiper-slide"><a href="photograph.html#Photograph-6" data-page="1"><img
+                               class="swiper-slide-img" src="assets/images/photograf/photo2.png"
+                               alt=""><div class="swiper-slide-img">
        <h4>
           САША ИВАНОВ
        </h4>
@@ -2990,8 +3472,9 @@
        </p>
     </div></a>
                       </div>
-                      <div class="swiper-slide"><a href="photograph.html" data-page="2"><img class="swiper-slide-img"
-                               src="assets/images/photograf/photo3.png" alt=""><div class="swiper-slide-img">
+                      <div class="swiper-slide"><a href="photograph.html#Photograph-7" data-page="2"><img
+                               class="swiper-slide-img" src="assets/images/photograf/photo3.png"
+                               alt=""><div class="swiper-slide-img">
        <h4>
           САША ИВАНОВ
        </h4>
@@ -3000,8 +3483,9 @@
        </p>
     </div></a>
                       </div>
-                      <div class="swiper-slide"><a href="photograph.html" data-page="3"><img class="swiper-slide-img"
-                               src="assets/images/photograf/photo4.png" alt=""><div class="swiper-slide-img">
+                      <div class="swiper-slide"><a href="photograph.html#Photograph-8" data-page="3"><img
+                               class="swiper-slide-img" src="assets/images/photograf/photo4.png"
+                               alt=""><div class="swiper-slide-img">
        <h4>
           САША ИВАНОВ
        </h4>
@@ -3528,26 +4012,29 @@
     
                 <select>
                    <option value="#tab-menu-poslug-00">интересующая услуга</option>
-                   <option value="#tab-menu-poslug-01">Экспресс-фотосессии</option>
-                   <option value="#tab-menu-poslug-02">Индивидуальные фотосессии </option>
-                   <option value="#tab-menu-poslug-03">Экспресс-видеосъёмка</option>
-                   <option value="#tab-menu-poslug-01">Семейная фотосессия</option>
-                   <option value="#tab-menu-poslug-02">Фотосессии в Южном </option>
-                   <option value="#tab-menu-poslug-03">Фотоконтент </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия беременности </option>
-                   <option value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
-                   <option value="#tab-menu-poslug-01">Love Story </option>
-                   <option value="#tab-menu-poslug-01">Студийная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Предметная фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-02">Домашняя фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Свадебная фотосессия </option>
-                   <option value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия под ключ </option>
-                   <option value="#tab-menu-poslug-03">Фотопикник </option>
-                   <option value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-01" value="#tab-menu-poslug-01">Экспресс-фотосессии
+                   </option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-02" value="#tab-menu-poslug-02">Индивидуальные
+                      фотосессии</option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-03" value="#tab-menu-poslug-03">Экспресс-видеосъёмка
+                   </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Семейная фотосессия</option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессии в Южном </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотоконтент </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия беременности </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Love Story </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Студийная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Предметная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Домашняя фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Свадебная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия под ключ </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотопикник </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>
                 <button>Заказать звонок</button>
              </div>
     
@@ -3564,7 +4051,7 @@
                          <img src="assets/images/icon/User.png" alt="">
                       </li>
                       <li>
-                         личный кабинет
+                         <span>личный кабинет</span>
                       </li>
                    </ul>
                 </a>
@@ -3647,14 +4134,14 @@
                             <div class="location__tab-img">
                                <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01" itemid="location__all">
                                   <div class="location__card-container">
-                                     <a href="one-location.html"><img class="location__card-img" src="assets/images/main/img5.png"
-                                           alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img5.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3670,13 +4157,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img8.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img8.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3692,13 +4180,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img6.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img6.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3715,13 +4204,14 @@
                                
                                <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-04">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img9.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img9.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3736,13 +4226,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-05">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img10.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img10.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3758,13 +4249,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img11.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img11.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3780,13 +4272,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img12.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img12.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3802,13 +4295,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img13.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img13.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3824,13 +4318,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-03">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img14.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img14.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3841,26 +4336,18 @@
                                      следующий день. Они проходят только по нашему расписанию.
                                   </p>
                                </div></a>
-                                  </div>
-                               
-                               </div>
-                               <div class="location__item tab-menu-location-04 popup__content-img" id="tab-menu-location-04">
-                                  <div class="container-location">
-                                     <img class="location__item-img" src="" alt="">
-                               
-                                     <button>Загрузить еще</button>
                                   </div>
                                
                                </div>                           <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01" itemid="location__all">
                                   <div class="location__card-container">
-                                     <a href="one-location.html"><img class="location__card-img" src="assets/images/main/img5.png"
-                                           alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img5.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3876,13 +4363,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img8.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img8.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3898,13 +4386,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img6.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img6.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3921,13 +4410,14 @@
                                
                                <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-04">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img9.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img9.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3942,13 +4432,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-05">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img10.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img10.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3964,13 +4455,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-01" id="tab-menu-location-01">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img11.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img11.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -3986,13 +4478,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-02" id="tab-menu-location-02">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img12.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img12.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -4008,13 +4501,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-03" id="tab-menu-location-03">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img13.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img13.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -4030,13 +4524,14 @@
                                </div>
                                <div class="swiper-slide location__card tab-menu-location-04" id="tab-menu-location-03">
                                   <div class="location__card-container">
-                                     <a href=""><img class="location__card-img" src="assets/images/main/img14.png" alt=""><div class="swiper-slide-img">
+                                     <a><img class="location__card-img" src="assets/images/main/img14.png" alt=""><div class="swiper-slide-img">
                                   <h4>
                                      Название локации
                                   </h4>
                                
                                   <h6>
-                                     <img src="assets/images/icon/calendar-m 1.png" alt=""> <span>15.03</span><span>20.03</span><span>3.04</span>
+                                     <img class="calendar-icon" src="assets/images/icon/calendar-m 1.png" alt="">
+                                     <span class="calendar-icon-data">15.03</span><span>20.03</span><span>3.04</span>
                                   </h6>
                                   <p>
                                      <span>
@@ -4047,14 +4542,6 @@
                                      следующий день. Они проходят только по нашему расписанию.
                                   </p>
                                </div></a>
-                                  </div>
-                               
-                               </div>
-                               <div class="location__item tab-menu-location-04 popup__content-img" id="tab-menu-location-04">
-                                  <div class="container-location">
-                                     <img class="location__item-img" src="" alt="">
-                               
-                                     <button>Загрузить еще</button>
                                   </div>
                                
                                </div>
@@ -4078,11 +4565,18 @@
                          <div class="flex-element">
                             <div class="modal__flex-element-title">
                                <div class="">Март 2022</div>
-                               <div class="">
+                               <div class="flex-element-calendar-weck">
     
                                </div>
                             </div>
                             <div class="flex-element-calendar">
+                               <div class="flex-element-calendar-weck">Пн</div>
+                               <div class="flex-element-calendar-weck">Вт</div>
+                               <div class="flex-element-calendar-weck">Ср</div>
+                               <div class="flex-element-calendar-weck">Чт</div>
+                               <div class="flex-element-calendar-weck">Пт</div>
+                               <div class="flex-element-calendar-weck">Сб</div>
+                               <div class="flex-element-calendar-weck">Вс</div>
                                <div class="grid-item">1</div>
                                <div class="grid-item">2</div>
                                <div class="grid-item">3</div>
@@ -4117,7 +4611,7 @@
                                <div class="grid-item-next-mons">1</div>
                                <div class="grid-item-next-mons">2</div>
                                <div class="grid-item-next-mons">3</div>
-                               <div class="grid-item-next-mons">4</div>
+    
                             </div>
                          </div>
                          <div class="flex-element">
@@ -4125,7 +4619,7 @@
                                <div class="">Выберите подходящее время</div>
                             </div>
     
-                            <div class="flex-element-calendar">
+                            <div class="flex-element-time">
                                <div class="grid-item">10:00</div>
                                <div class="grid-item">10:10</div>
                                <div class="grid-item">10:20</div>
@@ -4139,31 +4633,31 @@
                                <div class="grid-item">11:40</div>
                                <div class="grid-item">11:50</div>
                             </div>
-                            <div class="">
+                            <div class="modal__flex-element-title">
                                Длительность фотосессии
                             </div>
                             <div class="flex-element-calendar">
-                               <div class="grid-item">10 мин</div>
-                               <div class="grid-item">20 мин</div>
-                               <div class="grid-item">30 мин</div>
-                               <div class="grid-item">1 час</div>
+                               <div class="grid-item-time">10 мин</div>
+                               <div class="grid-item-time">20 мин</div>
+                               <div class="grid-item-time">30 мин</div>
+                               <div class="grid-item-time">1 час</div>
                             </div>
                             <div class="ccer__ishod">
                                <input type="checkbox">
                                <p>Исходники <span>(весь отснятый материал)</span></p>
                             </div>                     </div>
     
-                         <div class="flex-element">
+                         <div class="flex-element-coin">
                             <div class="modal__flex-element-title">
                                <div class="">Сумма</div>
                                <div class="">
     
                                </div>
                             </div>
-                            <div class="flex-element-calendar">
-                               <div class="grid-item">Стоимость фотосессии: <span>1,290 ₴</span></div>
-                               <div class="grid-item">Доступность исходников:<span>1,290 ₴</span></div>
-                               <div class="grid-item">Итого:<span>1,290 ₴</span></div>
+                            <div class="flex-content-coin">
+                               <div class="grid-item-coin">Стоимость фотосессии: <span>1,290 ₴</span></div>
+                               <div class="grid-item-coin">Доступность исходников:<span>1,290 ₴</span></div>
+                               <div class="grid-item-coin">Итого:<span>1,290 ₴</span></div>
     
                             </div>
                          </div>
@@ -4219,7 +4713,7 @@
                                   <button>ПРИМенИТЬ</button>
                                </div>
                                <p>К оплате <span>1,290 ₴</span></p>
-                               <input type=""> <label for="">Принимаю условия</label>
+                               <input type="checkbox"> <label for="">Принимаю условия</label>
                             </div>
                          </div>
                       </div>
@@ -4246,7 +4740,7 @@
        <div class="popup-body">
           <div class="wrapper popup__content">
              <div class="clorse-btn">
-                <a id="close-popup" class="close-warning"><img src="assets/images/icon/close.png" alt=""></a>
+                <a class="close-warning"><img src="assets/images/icon/close.png" alt=""></a>
              </div>
              <div class="tabs">
                 <div class="tabs__nav tabs-nav">
@@ -4263,16 +4757,16 @@
                          </h3>
                       </div>
                       <div class="flex-container">
-                         <div class="flex-element">
-                            <img src="assets/images/main/img16-1.png" alt="">
+                         <div class="flex-element flex-element-img">
+                            <img class="modal-tab__tab1-img" src="assets/images/main/img16-1.png" alt="">
                          </div>
                          <div class="flex-element">
                             <div class="modal__flex-element-title">
-                               <div class="">Выберите подходящее время</div>
+                               <div class="">Выберите время</div>
                             </div>
     
                             <div class="flex-element-calendar">
-                               <div class="grid-item">10:00</div>
+                               <button type="button" onclick="" class="grid-item">10:00</button>
                                <div class="grid-item">10:10</div>
                                <div class="grid-item">10:20</div>
                                <div class="grid-item">10:30</div>
@@ -4285,10 +4779,10 @@
                                <div class="grid-item">11:40</div>
                                <div class="grid-item">11:50</div>
                             </div>
-                            <div class="">
+                            <div class="modal__flex-element-title-time">
                                Длительность фотосессии
                             </div>
-                            <div class="flex-element-calendar">
+                            <div class="flex-element-calendar-time">
                                <div class="grid-item">10 мин</div>
                                <div class="grid-item">20 мин</div>
                                <div class="grid-item">30 мин</div>
@@ -4299,18 +4793,20 @@
                                <p>Исходники <span>(весь отснятый материал)</span></p>
                             </div>                     </div>
     
-                         <div class="flex-element">
+                         <div class="flex-element flex-element-block">
                             <div class="modal__flex-element-title">
                                <div class="">Сумма</div>
-                               <div class="">
-    
-                               </div>
                             </div>
-                            <div class="flex-element-calendar">
-                               <div class="grid-item">Стоимость фотосессии: <span>1,290 ₴</span></div>
-                               <div class="grid-item">Доступность исходников:<span>1,290 ₴</span></div>
-                               <div class="grid-item">Итого:<span>1,290 ₴</span></div>
-    
+                            <div class="flex-element-coin">
+                               <div class="coin-item">
+                                  <p>Стоимость фотосессии: </p> <span>1,290 ₴</span>
+                               </div>
+                               <div class="coin-item">
+                                  <p>Доступность исходников:</p> <span>1,290 ₴</span>
+                               </div>
+                               <div class="coin-item">
+                                  <p>Итого:</p> <span>1,290 ₴</span>
+                               </div>
                             </div>
                          </div>
                       </div>
@@ -4328,16 +4824,21 @@
     
                    <div class="tab tab-5">
                       <div class="modal-tab__container">
-    
                          <h3>
-                            Оплата
+                            16 марта: парк «тараса шевченка». Цветение магнолий
                          </h3>
                       </div>
+                      <div class="modal-tab__container">
+    
+                         <h4>
+                            Оплата
+                         </h4>
+                      </div>
                       <div class="flex-container">
-                         <div class="flex-element">
+                         <div class="flex-element flex-element-img">
                             <img src="assets/images/icon/img-modal.png" alt="">
                          </div>
-                         <div class="flex-element">
+                         <div class="flex-element flex-element-contact">
                             <ul>
                                <li>
                                   <label for=""><img src="assets/images/icon/user-m.png" alt="">
@@ -4358,14 +4859,15 @@
                          </div>
     
     
-                         <div class="flex-element">
+                         <div class="flex-element flex-element-certificate">
                             <div class="block">
                                <div class="box">
-                                  <input type="text">
-                                  <button>ПРИМенИТЬ</button>
+                                  <input type="text" value="№ Сертификата">
+                                  <button type="button">ПРИМенИТЬ</button>
                                </div>
                                <p>К оплате <span>1,290 ₴</span></p>
-                               <input type=""> <label for="">Принимаю условия</label>
+                               <label for=""><input type="checkbox">
+                                  Принимаю условия</label>
                             </div>
                          </div>
                       </div>
@@ -4376,8 +4878,8 @@
                             </button>
                          </div>
                          <div class="location__call">
-                            <button class="">
-                               оплатить
+                            <button class="close-warning button-order-photos">
+                               Заказать Экспресс-фотосессию
                             </button>
                          </div>
                       </div>
@@ -4420,26 +4922,29 @@
                    </ul>
                 </div>            <select>
                    <option value="#tab-menu-poslug-00">ТИП</option>
-                   <option value="#tab-menu-poslug-01">Экспресс-фотосессии</option>
-                   <option value="#tab-menu-poslug-02">Индивидуальные фотосессии </option>
-                   <option value="#tab-menu-poslug-03">Экспресс-видеосъёмка</option>
-                   <option value="#tab-menu-poslug-01">Семейная фотосессия</option>
-                   <option value="#tab-menu-poslug-02">Фотосессии в Южном </option>
-                   <option value="#tab-menu-poslug-03">Фотоконтент </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия беременности </option>
-                   <option value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
-                   <option value="#tab-menu-poslug-01">Love Story </option>
-                   <option value="#tab-menu-poslug-01">Студийная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Предметная фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-01">Фотосессия в кафе </option>
-                   <option value="#tab-menu-poslug-02">Домашняя фотосессия </option>
-                   <option value="#tab-menu-poslug-03">Свадебная фотосессия </option>
-                   <option value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
-                   <option value="#tab-menu-poslug-02">Фотосессия под ключ </option>
-                   <option value="#tab-menu-poslug-03">Фотопикник </option>
-                   <option value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-01" value="#tab-menu-poslug-01">Экспресс-фотосессии
+                   </option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-02" value="#tab-menu-poslug-02">Индивидуальные
+                      фотосессии</option>
+                   <option class="tabs__item-favor" data-tab-name="tab-menu-poslug-03" value="#tab-menu-poslug-03">Экспресс-видеосъёмка
+                   </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Семейная фотосессия</option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессии в Южном </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотоконтент </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия Дня Рождения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия беременности </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосесссия Крещения </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Love Story </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Студийная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Предметная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Фотосессия в кафе </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Домашняя фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Свадебная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-01">Интерьерная фотосессия </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Фотосессия под ключ </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-03">Фотопикник </option>
+                   <option class="tabs__item-favor" value="#tab-menu-poslug-02">Ночная фотосессия </option>            </select>
                 <div class="flex-block">
                    <input id="popup-data" type="date" value="Дата">
                    <input id="popup-time" type="time" value="Время">
@@ -4488,20 +4993,20 @@
                       src="assets/images/icon/close.png" alt=""></a>
              </div>
              <div class="modal-order-photosession-block">
-                <br>
-                <br>
-                <br>
+    
                 <div class="swiper-previev">
                    <div class="main__slider-next-prev-button-block">
                       <div id="button-left-rigch" class="button-left-rigch">
-                         <div class="swiper-prev prev-button-prev swiper2-prev swiper__section7-prev" id="swiper-prev">
+                         <div class="swiper-prev prev-button-prev swiper2-prev swiper__section7-prev popup-order-slider-prev"
+                            id="swiper-prev">
                             <svg width="84" height="11" viewBox="0 0 84 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                <path fill-rule="evenodd" clip-rule="evenodd"
                                   d="M0.713348 0.166504C-0.339027 0.166523 0.395477 1.34713 0.713348 1.69732L9.22676 10.7372C9.54464 11.0874 10.06 11.0874 10.3779 10.7372C10.6958 10.387 10.6958 9.81926 10.3779 9.46908L3.25401 1.95995H82.686C83.1356 1.95995 83.5 1.55849 83.5 1.06326C83.5 0.568023 83.1356 0.166559 82.686 0.166559H3.25401C3.25401 0.166559 0.881935 0.166501 0.713348 0.166504Z"
                                   fill="#171A1E" />
                             </svg>
                          </div>
-                         <div class="swiper-next prev-button-next swiper2-next swiper__section7-next" id="swiper-next">
+                         <div class="swiper-next prev-button-next swiper2-next swiper__section7-next popup-order-slider-next"
+                            id="swiper-next">
                             <svg width="84" height="11" viewBox="0 0 84 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                                <path fill-rule="evenodd" clip-rule="evenodd"
                                   d="M83.2867 10.8333C84.339 10.8332 83.6045 9.65262 83.2867 9.30244L74.7732 0.262554C74.4554 -0.0876274 73.94 -0.0876274 73.6221 0.262554C73.3042 0.612737 73.3042 1.18049 73.6221 1.53068L80.746 9.0398H1.31397C0.864427 9.0398 0.5 9.44127 0.5 9.9365C0.5 10.4317 0.864427 10.8332 1.31397 10.8332H80.746C80.746 10.8332 83.1181 10.8333 83.2867 10.8333Z"
@@ -4532,18 +5037,33 @@
                       </div>
                       <div class="swiper-slide"><a><img class="swiper-slide-img" src="assets/images/main/img4.png" alt=""></a>
                       </div>
-                   </div>            </div>
-    
-                <br>
-                <br>
-                <div class="modal-order-photosession-block-text">
-                   <p>Самый доступный вид фотосессии, в результате которой <br> Вы получите качественные </p>
+                   </div>               <div class="popup-order-slider__block">
+                      <div class="modal-order-photosession-block-text">
+                         <p>Самый доступный вид фотосессии, в результате которой <br> Вы получите качественные </p>
+                      </div>
+                      <div class="popup-order-slider__block-element">
+                         <div class="main__slider-next-prev-button-block">
+                            <div id="button-left-rigch" class="button-left-rigch">
+                               <div class="swiper-prev prev-button-prev swiper2-prev swiper__section7-prev popup-order-slider-prev"
+                                  id="swiper-prev">
+                                  <svg width="84" height="11" viewBox="0 0 84 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.713348 0.166504C-0.339027 0.166523 0.395477 1.34713 0.713348 1.69732L9.22676 10.7372C9.54464 11.0874 10.06 11.0874 10.3779 10.7372C10.6958 10.387 10.6958 9.81926 10.3779 9.46908L3.25401 1.95995H82.686C83.1356 1.95995 83.5 1.55849 83.5 1.06326C83.5 0.568023 83.1356 0.166559 82.686 0.166559H3.25401C3.25401 0.166559 0.881935 0.166501 0.713348 0.166504Z"
+                                        fill="#171A1E" />
+                                  </svg>
+                               </div>
+                               <div class="swiper-next prev-button-next swiper2-next swiper__section7-next popup-order-slider-next"
+                                  id="swiper-next">
+                                  <svg width="84" height="11" viewBox="0 0 84 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                     <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M83.2867 10.8333C84.339 10.8332 83.6045 9.65262 83.2867 9.30244L74.7732 0.262554C74.4554 -0.0876274 73.94 -0.0876274 73.6221 0.262554C73.3042 0.612737 73.3042 1.18049 73.6221 1.53068L80.746 9.0398H1.31397C0.864427 9.0398 0.5 9.44127 0.5 9.9365C0.5 10.4317 0.864427 10.8332 1.31397 10.8332H80.746C80.746 10.8332 83.1181 10.8333 83.2867 10.8333Z"
+                                        fill="#171A1E" />
+                                  </svg>
+                               </div>
+                            </div>                     </div>
+                      </div>
+                   </div>
                 </div>
-                <br>
-                <br>
-                <br>
-                <br>
-    
              </div>
           </div>
        </div>
@@ -4643,6 +5163,7 @@
             document.getElementById("menu-burger").style.width = "0";
         };
     </script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="assets/js/app.js"></script>
 </body>
