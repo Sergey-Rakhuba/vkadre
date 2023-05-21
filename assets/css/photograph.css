@@ -1,0 +1,466 @@
+.portfolio__body .photograph__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0px 92px 0px 95px;
+    padding: 63px 0 93px 0;
+    border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.portfolio__body .photograph__container .photograph__section1 {
+    margin: 35px 0 100px 0;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .swiper__photograph {
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 533px;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .swiper__photograph .swiper-wrapper .swiper-slide a img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-img, .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block {
+    -ms-flex: 0 1 45%;
+    flex: 0 1 45%;
+    width: 45%;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-img .photograph__section1-text, .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-text {
+    max-width: 45vw;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-img {
+    max-width: 533px;
+    max-height: 625px;
+    overflow: hidden;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-img img {
+    margin-top: -30px;
+    width: 100%;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block {
+    -ms-flex: 0 1 49%;
+    flex: 0 1 49%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .swiper__photograph-text {
+    overflow: hidden;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title {
+    padding-left: 105px;
+    margin-top: 2px;
+}
+
+@media (max-width: 767px) {
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title h2 {
+        font-size: calc(16px + 27.2 * ((100vw - 320px) / 1440));
+    }
+}
+
+@media (min-width: 767px) {
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title h2 {
+        font-size: calc(16px + 16 * (100vw/ 1440));
+    }
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title span {
+    padding-top: 3px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title p {
+    margin-top: 45px;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-slider .swiper-photograph {
+    overflow: hidden;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-slider .swiper-photograph .main__slider-next-prev-button-block {
+    height: 50px;
+    position: relative;
+}
+
+.portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-slider .swiper-photograph .main__slider-next-prev-button-block .button-left-rigch, .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-slider .swiper-photograph .main__slider-next-prev-button-block #button-left-rigch {
+    position: absolute;
+    right: 70px;
+    top: 0;
+}
+
+.portfolio__body .photograph__container .portfolio__tab {
+    border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+}
+
+.portfolio__body .photograph__container .portfolio__tab h2 {
+    padding: 100px 0 10px 0;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 16px;
+    border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+    padding: 40px 0 115px 0;
+    margin: 0 -30px 0 -20px;
+    border-bottom: 1px solid rgba(23, 26, 30, 0.1176470588);
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all {
+    overflow: hidden;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide {
+    width: auto;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex: 1 1 20%;
+    flex: 1 1 20%;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-litle-img, .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-big-img {
+    padding: 10px;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-litle-img img, .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-big-img img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__item {
+    display: none;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img {
+    padding-bottom: 100px;
+    border: none;
+    border-bottom: 1px solid rgba(23, 26, 30, 0.1176470588);
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call {
+    margin-top: 100px;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call h2 {
+    padding: 0px 0 0 0;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call h2 span {
+    margin-left: 8px;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call .button-order-photos {
+    margin: 11px auto;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call {
+    margin-top: 100px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+@media (max-width: 767px) {
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__call h2 {
+        font-size: calc(16px + 27.2 * ((100vw - 320px) / 1440));
+    }
+}
+
+@media (min-width: 767px) {
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__call h2 {
+        font-size: calc(16px + 16 * (100vw/ 1440));
+    }
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call h2 span {
+    margin-left: 8px;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call button {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 274px;
+    height: 52px;
+    border: 1px solid #171A1E;
+    font-family: "Inter";
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #171A1E;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__call button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-litle-img, .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-big-img {
+    padding: 5px;
+    width: auto;
+}
+
+.portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-litle-img img, .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-big-img img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1220px) {
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title {
+        padding: 60px 0;
+    }
+
+    .portfolio__body .photograph__section1-img {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .portfolio__body .photograph__container {
+        padding-bottom: 20px;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab {
+        border-top: 1px solid rgba(23, 26, 30, 0.1176470588);
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab h2 {
+        padding: 40px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 786px) and (max-width: 767px) {
+    .portfolio__body .photograph__container .portfolio__tab h2 {
+        font-size: calc(24px + 13.6 * ((100vw - 320px) / 1440));
+    }
+}
+
+@media screen and (max-width: 786px) and (min-width: 767px) {
+    .portfolio__body .photograph__container .portfolio__tab h2 {
+        font-size: calc(24px + 8 * (100vw/ 1440));
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img {
+        padding-bottom: 40px;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section {
+        -ms-flex: 1 1 10%;
+        flex: 1 1 10%;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-litle-img, .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-big-img {
+        padding: 3px;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__call {
+        margin-top: 45px;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__call h2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__call .button-order-photos {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 786px) {
+    .portfolio__body .portfolio__container .portfolio__call {
+        margin-top: 80px;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__call .button-order-photos {
+        margin-top: 21px;
+    }
+}
+
+@media screen and (max-width: 553px) {
+    .portfolio__body .photograph__container {
+        margin: 0px 23px;
+        padding: 0;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__item {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__item button {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 99%;
+        height: 52px;
+        border: 1px solid #171A1E;
+        font-family: "Inter";
+        margin-top: 20px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #171A1E;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__item button:hover {
+        background: #171A1E;
+        color: #FFFFFF;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-img {
+        max-width: 90vw;
+        width: 90vw;
+        max-height: 318.95px;
+        overflow: hidden;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 {
+        margin: 35px 0 13px 0;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title {
+        padding: 25px 0;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title h2 {
+        margin-bottom: 8px;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-title .photograph__section1-title-title p {
+        margin-top: 26px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+    }
+
+    .portfolio__body .photograph__container .photograph__section1 .photograph__section1-container .photograph__section1-block .photograph__section1-slider {
+        display: none;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-litle-img, .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-big-img {
+        width: auto;
+    }
+
+    .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-litle-img img, .portfolio__body .photograph__container .portfolio__tab .portfolio__tab-img .swiper-all .swiper-wrapper .swiper-slide .portfolio__section-big-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .portfolio__body .portfolio__container .portfolio__tab {
+        margin-top: 30px;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img {
+        max-height: 3556px;
+        overflow-x: scroll;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section {
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+    }
+
+    .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-litle-img, .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__body .portfolio__container .portfolio__tab .portfolio__tab-img .portfolio__section .portfolio__section-big-img {
+        padding: 10px 0px;
+    }
+}
